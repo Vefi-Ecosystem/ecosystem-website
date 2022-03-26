@@ -112,7 +112,7 @@ export const Div1 = styled.div`
     display: none;
 
 
-    @media screen and (max-width: 900px){
+    @media screen and (max-width: 1000px){
         display:flex ;
 
 
@@ -125,6 +125,12 @@ export const Div1 = styled.div`
 export const Div2 = styled.div` 
 margin-left: 300px;
 
+@media screen and (max-width: 1024px){
+    margin-left:10px ;
+}
+@media screen and (max-width: 1020px){
+    margin-left:100px ;
+}
 @media screen and (max-width: 800px){
     margin:0 ;
 }
