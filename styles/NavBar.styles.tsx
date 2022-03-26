@@ -49,10 +49,14 @@ justify-content: space-between ;
 display: flex;
 .icon-pack{
     width:100% ;
-    display:flex ;
+    display:none ;
     align-items:flex-end ;
     justify-content:flex-end ;
     font-size: 25px;
+
+    @media screen and (max-width:900px){
+        display:flex ;
+    }
 
 
    
