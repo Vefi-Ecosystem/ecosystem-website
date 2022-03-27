@@ -5,8 +5,13 @@ type DivProps= {
  }
 
 export const Nav = styled.div` 
+position:fixed ;
+top: 0;
+right: 0;
+left:0;
+z-index:1 ;
 display:flex ;
-align-items:c ;
+align-items:center ;
 justify-content: space-between ;
 background: rgba(238, 238, 238, 1) ;
 margin: 0;
@@ -53,6 +58,7 @@ display: flex;
     align-items:flex-end ;
     justify-content:flex-end ;
     font-size: 25px;
+    cursor: pointer;
 
     @media screen and (max-width:900px){
         display:flex ;
@@ -71,12 +77,15 @@ display: flex;
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content:center ;
     letter-spacing: -0.015em;
     color: #333333;
 
     @media screen and (max-width: 1000px){
 margin:20px 0 ;
 align-items:  flex-start;
+justify-content:flex-start ;
+
    
 }
 }
@@ -110,6 +119,7 @@ export const Sec = styled.div`
 `
 export const Div1 = styled.div`
     display: none;
+    cursor: pointer;
 
 
     @media screen and (max-width: 1000px){

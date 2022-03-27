@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/link'
+import {ActiveLink} from '../components/Link/index'
 import Logo from '../assets/vefilogo.png'
 import Slash from '../assets/slash.png'
 import ThemeSwitcher from './ThemeSwitcher'
@@ -18,6 +18,7 @@ import
 }
 
  from '../styles/NavBar.styles'
+import Link from 'next/link'
 
  type DivProps= {
   click : boolean
@@ -43,24 +44,27 @@ function NavBar() {
             <FaTimes/>
           </div>
           <div className='link'>
-           <Link href='/'>
-                Home
-           </Link>
+          <ActiveLink >
+                <Link href={''} >Home</Link>
+           </ActiveLink>
           </div>
           <div className='link'>
-           <Link href='/'>
-                Partners
-           </Link>
+          <ActiveLink>
+                  <Link  href={''}>Partners</Link>
+           </ActiveLink>
           </div>
           <div className='link'>
-           <Link href='/'>
+            <ActiveLink>
+            <Link href={''}>
                 Products
            </Link>
+            </ActiveLink>
+           
           </div>
           <div className='link'>
-           <Link href='/'>
-                Team
-           </Link>
+          <ActiveLink>
+                <Link href={''}>Team</Link>
+           </ActiveLink>
           </div>
           
         
@@ -72,11 +76,14 @@ function NavBar() {
      </Div1>
 
      <Div2>
-       <Link href='/'>
-       <a>
-       <Image src={Logo}/>
-       </a>
-       </Link>
+     <ActiveLink>
+                <Link  href={''}>
+                    <a>
+                    <Image src={Logo}/>
+                    </a>
+                  </Link>
+           </ActiveLink>
+       
       </Div2>
    
       <Div3>
