@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import {ActiveLink} from '../components/Link/index'
-import Logo from '../assets/vefilogo.png'
-import Slash from '../assets/slash.png'
+import Logo from '../assets/images/vefilogo.png'
+import Slash from '../assets/images/slash.png'
 import ThemeSwitcher from './ThemeSwitcher'
 import { BiMenuAltLeft} from 'react-icons/bi'
 import { FaTimes} from 'react-icons/fa'
@@ -21,7 +21,7 @@ import
 import Link from 'next/link'
 
  type DivProps= {
-  click : boolean
+  click : boolean;
 }
 
 
@@ -44,27 +44,27 @@ function NavBar() {
             <FaTimes/>
           </div>
           <div className='link'>
-          <ActiveLink >
-                <Link href={''} >Home</Link>
-           </ActiveLink>
+         
+                <Link href='/' >Home</Link>
+          
           </div>
           <div className='link'>
-          <ActiveLink>
-                  <Link  href={''}>Partners</Link>
-           </ActiveLink>
+          
+                  <Link  href='/'>Partners</Link>
+          
           </div>
           <div className='link'>
-            <ActiveLink>
-            <Link href={''}>
+           
+            <Link href='/'>
                 Products
            </Link>
-            </ActiveLink>
+            
            
           </div>
           <div className='link'>
-          <ActiveLink>
-                <Link href={''}>Team</Link>
-           </ActiveLink>
+          
+                <Link href='/'>Team</Link>
+           
           </div>
           
         
@@ -76,13 +76,13 @@ function NavBar() {
      </Div1>
 
      <Div2>
-     <ActiveLink>
-                <Link  href={''}>
+  
+                <Link  href='/'>
                     <a>
                     <Image src={Logo}/>
                     </a>
                   </Link>
-           </ActiveLink>
+           
        
       </Div2>
    

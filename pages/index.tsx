@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Hero from '../components/Hero'
 import NavBar from '../components/NavBar'
 import styled from 'styled-components'
+import LogoSlide from '../components/LogoSlide'
 
 const Full = styled.div`
   background: #EEEEEE;`
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       </Head>
    <NavBar/>
    <Hero/>
+   <LogoSlide/>
 
     </Full>
   )

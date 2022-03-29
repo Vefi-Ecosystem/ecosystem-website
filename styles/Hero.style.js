@@ -14,12 +14,23 @@ display: flex;
 padding: 30px 20px ;
 flex-direction: column;
 align-items: center;
+justify-content:center ;
 }
 
 `
 
 export const HeroText = styled.div`
-font-family: poppins ;
+.but-div{
+    width: 100%;
+    display:flex ;
+    justify-content:flex-start;
+
+    @media screen and (max-width: 900px){
+
+
+justify-content:center ;
+}
+}
 
 @media screen and (max-width: 900px){
  
@@ -64,7 +75,7 @@ justify-content:center ;
 }
 
 p{
-    margin-top:30px ;
+    margin-top:20px ;
     font-size: 27px;
 line-height: 32px;
 display: flex;
@@ -96,3 +107,31 @@ text-align: center;
 `
 
 export const ImageCon = styled.div` `
+// export const ButCon= styled.div` 
+// display: flex;
+// align-items: center;
+// text-align: center;
+// `
+
+export const Button = styled.button` 
+margin-top: 30px;
+background: #105DCF;
+border-radius: 5px;
+outline: none;
+border:none ;
+padding:10px ;
+font-size: 21px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #FFFFFF;
+
+.icon{
+   color: #FFFFFF;
+   margin-left:5px ;
+}
+
+`
