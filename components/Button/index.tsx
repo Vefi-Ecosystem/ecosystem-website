@@ -9,18 +9,18 @@ type Props = {
 };
 
 const CustomButton = styled('button')<CustomComponentProps>`
-  width: ${props => props.width || '231px'};
-  height: ${props => props.height || '43px'};
-  background: ${props => props.background || '#105DCF'};
-  border-radius: ${props => props.borderRadius || '5px'};
-  color: ${props => props.color || '#fff'};
-  border: ${props => props.border || 'none'};
-  margin-top: ${props => props.marginTop};
-  margin-bottom: ${props => props.marginBottom};
+  width: ${(props) => props.width || '231px'};
+  height: ${(props) => props.height || '43px'};
+  background: ${(props) => props.background || '#105DCF'};
+  border-radius: ${(props) => props.borderRadius || '5px'};
+  color: ${(props) => props.color || '#fff'};
+  border: ${(props) => props.border || 'none'};
+  margin-top: ${(props) => props.marginTop};
+  margin-bottom: ${(props) => props.marginBottom};
   cursor: pointer;
-  font-size: ${props => props.fontSize || '8px'};
-  text-align: ${props => props.textAlign || 'left'};
-  font-weight: ${props => props.fontWeight || 'bold'};
+  font-size: ${(props) => props.fontSize || '8px'};
+  text-align: ${(props) => props.textAlign || 'left'};
+  font-weight: ${(props) => props.fontWeight || 'bold'};
 `;
 
 const Button = (props: Props & CustomComponentProps) => (
