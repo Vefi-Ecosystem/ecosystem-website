@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {darkTheme} from '../themes'
 
 type DivProps= {
     click : any
