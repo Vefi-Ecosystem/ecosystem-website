@@ -36,25 +36,32 @@ function LogoSlide() {
   return (
     <Container>
         <div>
-            <Image src={Cosmic}/>
+            <Image src={Cosmic}
+            alt='Partners'/>
         </div>
         <div>
-            <Image src={Microsoft}/>
+            <Image src={Microsoft}
+             alt='Partners'/>
         </div>
         <div>
-            <Image src={Miro}/>
+            <Image src={Miro}
+             alt='Partners'/>
         </div>
         <div>
-            <Image src={Polaroid}/>
+            <Image src={Polaroid}
+             alt='Partners'/>
         </div>
         <div>
-            <Image src={Spacex}/>
+            <Image src={Spacex}
+             alt='Partners'/>
         </div>
         <div>
-            <Image src={Stanford}/>
+            <Image src={Stanford}
+             alt='Partners'/>
         </div>
         <div>
-            <Image src={Ycombi}/>
+            <Image src={Ycombi}
+             alt='Partners'/>
         </div>
 
     </Container>

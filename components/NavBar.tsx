@@ -79,7 +79,8 @@ function NavBar() {
   
                 <Link  href='/'>
                     <a>
-                    <Image src={Logo}/>
+                    <Image src={Logo}
+                     alt='Logo'/>
                     </a>
                   </Link>
            
