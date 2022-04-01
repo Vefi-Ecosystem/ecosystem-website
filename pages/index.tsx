@@ -39,7 +39,6 @@ import styles from '../styles/Home.module.css'
 import ThemeSwitch from "../components/ThemeSwitch";
 import Layout from '../components/Layout';
 import Head from 'next/head';
-import { Nav } from '../styles/NavBar.styles';
 import NavBar from '../components/NavBar';
 import Hero from '../components/Hero';
 

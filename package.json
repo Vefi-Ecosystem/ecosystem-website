@@ -5,9 +5,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write **/**/*.{ts,tsx,js,json,css,html}"
   },
   "dependencies": {
+    "babel-plugin-styled-components": "^2.0.6",
     "next": "12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
