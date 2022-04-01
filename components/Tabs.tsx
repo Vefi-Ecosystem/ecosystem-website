@@ -3,9 +3,12 @@ import {
     Container
 } from '../styles/Tabs.style'
 
+interface Props {
+    index : number
+}
 function Tabs() {
     const [toggle, setToggle] = useState(1);
-    const toggleTab = (index) =>{
+    const toggleTab = (index: React.SetStateAction<number>) =>{
       setToggle(index)
     }
   return (
