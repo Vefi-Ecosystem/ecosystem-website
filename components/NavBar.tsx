@@ -44,12 +44,16 @@ function NavBar() {
           </div>
           <div className='link'>
          
-                <Link href='/' >Home</Link>
+                <Link href='/' >
+                  <a>Home</a>
+                </Link>
           
           </div>
           <div className='link'>
           
-                  <Link  href='/'>Partners</Link>
+                  <Link  href='/'>
+                    <a>Partners</a>
+                  </Link>
           
           </div>
           <div className='link'>

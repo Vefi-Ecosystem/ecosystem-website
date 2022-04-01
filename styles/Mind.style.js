@@ -36,7 +36,6 @@ background: linear-gradient(180deg, rgba(221, 221, 221, 0) 0%, #DDDDDD 55.73%, r
             .mind-name{
                 font-size: 26px;
 line-height: 24px;
-
 display: flex;
 align-items: center;
 text-align: center;
@@ -71,11 +70,12 @@ color: #333333;
             flex-direction:column ;
             align-items:center ;
             justify-content:center ;
+            padding:15px 0 ;
 
             .mind-name{
                 font-size: 26px;
 line-height: 24px;
-
+margin-bottom:5px ;
 display: flex;
 align-items: center;
 text-align: center;
