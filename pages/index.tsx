@@ -4,6 +4,12 @@ import Hero from '../components/Hero'
 import NavBar from '../components/NavBar'
 import styled from 'styled-components'
 import LogoSlide from '../components/LogoSlide'
+import DescSec from '../components/DescSec'
+import Scroll from '../components/Scroll'
+import Rev from '../components/Rev'
+import Addr from '../components/Addr'
+import Chang from '../components/Chang'
+import Mind from '../components/Mind'
 
 const Full = styled.div`
   background: #EEEEEE;`
@@ -19,6 +25,13 @@ const Home: NextPage = () => {
    <NavBar/>
    <Hero/>
    <LogoSlide/>
+   <DescSec/>
+   <Scroll/>
+   <Addr/>
+   <Rev/>
+   <Chang/>
+   <Mind/>
+
 
     </Full>
   )

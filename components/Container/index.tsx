@@ -4,9 +4,7 @@ import { CustomComponentProps } from '../props';
 
 
 type Props = {
-  title: string;
-  click?: (ev: Event) => void;
-  disabled?: boolean;
+  
 };
 
 export const CustomContainer = styled.div<CustomComponentProps>`  
@@ -20,7 +18,7 @@ const Container = (props: Props & CustomComponentProps) => (
       {...(props as CustomComponentProps)}
       
     >
-      {(props as Props).title}
+    
     </CustomContainer>
   );
   

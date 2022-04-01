@@ -5,6 +5,7 @@ type DivProps= {
  }
 
 export const Nav = styled.div` 
+font-family:Gilror-semibold ;
 position:fixed ;
 top: 0;
 right: 0;
@@ -70,8 +71,8 @@ display: flex;
 
 
 .link{
+    font-family:Gilror-semibold ;
     margin-right: 20px;
-    font-family:  poppins;
     font-size: 16px;
     line-height: 19px;
     display: flex;

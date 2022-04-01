@@ -11,19 +11,32 @@ import Stanford from '../assets/images/stanford.png'
 import Ycombi from '../assets/images/ycombi.png'
 
 const Container = styled.div`
+margin:40px 0 ;
 background: #DDDDDD;
-padding:20px ;
+/* padding ; */
 display:flex ;
 align-items:center ;
 justify-content:space-between ;
+overflow-x:  scroll;
+::-webkit-scrollbar{
+    display: none;
+}
+
+div{
+    display:flex ;
+align-items:center ;
+justify-content:center ;
+    margin: 0px 20px;
+    min-width:  100px;
+    padding: 20px 0;
+}
 `
 
 function LogoSlide() {
   return (
     <Container>
         <div>
-            <Image src={Cosmic}
-            height=''/>
+            <Image src={Cosmic}/>
         </div>
         <div>
             <Image src={Microsoft}/>

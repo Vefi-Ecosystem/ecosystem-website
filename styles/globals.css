@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, p{
 
 @font-face {
   font-family: Gilroy-medium;
-  src: url(../assets/Gilroy/Gilroy-Medium.ttf);
+  src: url(../assets/Gilroy/Gilroy-Medium.ttf) ;
 }
 
 @font-face {
@@ -32,6 +32,11 @@ h1, h2, h3, h4, h5, p{
 }
 
 @font-face {
-  font-family: Gilroy-bold;
+  font-family: Gilroy-semibold;
+  src: url(../assets/Gilroy/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Gilroy-extra;
   src: url(../assets/Gilroy/Gilroy-ExtraBold.ttf);
 }
