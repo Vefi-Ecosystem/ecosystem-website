@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import {ActiveLink} from '../components/Link/index'
 import Logo from '../assets/images/vefilogo.png'
 import Slash from '../assets/images/slash.png'
 import ThemeSwitcher from './ThemeSwitcher'
@@ -91,7 +90,8 @@ function NavBar() {
       <div className='join'>
      <div> Join our community</div>
      <div className='slash'>
-       <Image src={Slash}/>
+       <Image src={Slash}
+        alt='decor'/>
      </div>
       </div>
        <ThemeSwitcher/>
