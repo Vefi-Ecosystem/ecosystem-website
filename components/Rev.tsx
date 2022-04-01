@@ -70,6 +70,7 @@ in the Blockchain Technology <br/> Globally</Title>
       </div>
       <div>
           <Image src={Revo}
+             alt='Explanatory image'
           height= {546}
           width = {480}
           />

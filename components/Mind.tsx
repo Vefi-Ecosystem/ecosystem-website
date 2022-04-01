@@ -16,6 +16,7 @@ function Mind() {
                 <div>
                     <div>
                     <Image src={James}
+                    alt='Founding fathers'
                     height={340}
                     width={268}/>
                     </div>
@@ -30,7 +31,7 @@ function Mind() {
                 </div>
                 <div>
                 <div>
-                    <Image src={Kingsley}/>
+                    <Image src={Kingsley} alt='Founding fathers'/>
                     </div>
                     <div className='mind-con'>
                         <div className='mind-name'>
@@ -45,7 +46,7 @@ function Mind() {
             <div className='img-card2'>
             <div>
                     <div>
-                    <Image src={James}/>
+                    <Image src={James} alt='Founding fathers'/>
                     </div>
                     <div className='mind-con'>
                         <div className='mind-name'>
@@ -58,7 +59,7 @@ function Mind() {
                 </div>
                 <div>
                     <div>
-                    <Image src={James}/>
+                    <Image src={James} alt='Founding fathers'/>
                     </div>
                     <div className='mind-con'>
                         <div className='mind-name'>

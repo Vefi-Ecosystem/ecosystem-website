@@ -68,6 +68,7 @@ function Chang() {
       </div>
       <div>
           <Image src={Chan}
+          alt='Explanatory image'
           height= {546}
           width = {550}
           />

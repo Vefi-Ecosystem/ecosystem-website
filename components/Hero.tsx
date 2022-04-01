@@ -30,7 +30,7 @@ function Hero() {
            
         </HeroText>
         <ImageCon>
-          <Image src={Door}/>
+          <Image src={Door} alt='Ecosystem'/>
 
         </ImageCon>
     </Container>

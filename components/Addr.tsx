@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import Underlay from '../assets/images/underlay.png'
 const Container = styled.div`
 background: rgba(0, 0, 0, 0.58);
 margin-top:40px ;

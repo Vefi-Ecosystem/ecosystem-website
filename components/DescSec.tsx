@@ -67,6 +67,7 @@ the largest Blockchain  <br /> Infrastructure and Solution <br/> company</Title>
       </div>
       <div>
           <Image src={Ether}
+            alt='Explanatory image'
           height= {546}
           width = {550}
           />
