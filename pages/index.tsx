@@ -34,9 +34,6 @@ import type { NextPage } from 'next'
 
 
 //     </Full>
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import ThemeSwitch from "../components/ThemeSwitch";
 import Layout from '../components/Layout';
 import Head from 'next/head';
 import NavBar from '../components/NavBar';
@@ -56,7 +53,6 @@ const Home: NextPage = () => {
         <Hero/>
 
         <main >
-          {/* <ThemeSwitch /> */}
           
 
          
