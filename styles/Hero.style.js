@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { darkTheme, lightTheme } from "../themes";
 import { CustomContainer } from "../components/Container";
 
 export const Container = styled(CustomContainer)`
@@ -43,7 +44,8 @@ line-height: 114px;
 display: flex;
 align-items: center;
 letter-spacing: -0.015em;
-color: #000000;
+
+color:${(props) => props.theme.headerTextColor};
 
 @media screen and (max-width: 900px){
     font-size: 35px;
@@ -82,7 +84,7 @@ display: flex;
 align-items: center;
 letter-spacing: -0.015em;
 
-color: #333333;
+color:${(props) => props.theme.regularTextColor};
 
 br{
 display: block;

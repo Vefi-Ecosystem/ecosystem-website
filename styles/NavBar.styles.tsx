@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {darkTheme} from '../themes'
+import {darkTheme, lightTheme} from '../themes'
 
 type DivProps= {
     click : any
@@ -15,7 +15,7 @@ z-index:1 ;
 display:flex ;
 align-items:center ;
 justify-content: space-between ;
-background: rgba(238, 238, 238, 1) ;
+background:${(props: any) => props.theme.backgroundColor};
 margin: 0;
 padding: 20px 40px;
 box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.09);
@@ -81,7 +81,7 @@ display: flex;
     text-align: center;
     justify-content:center ;
     letter-spacing: -0.015em;
-    color: #333333;
+    color: ${(props: any) => props.theme.linkColor};
 
     @media screen and (max-width: 1000px){
 margin:20px 0 ;
@@ -172,7 +172,7 @@ text-align: center;
 letter-spacing: -0.015em;
 margin-right:40px ;
 
-color: #333333;
+color: ${(props: any) => props.theme.linkColor};
 
 @media screen and (max-width: 1000px){
        display:none ;
