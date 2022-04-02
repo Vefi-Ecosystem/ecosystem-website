@@ -1,15 +1,15 @@
 import type { NextPage } from 'next'
 import Head from 'next/head';
 import Layout from '../components/Layout';
-import NavBar from '../components/NavBar';
-import Hero from '../components/Hero';
-import LogoSlide from '../components/LogoSlide';
+import NavBar from '../components/Navbar/Navbar';
+import Hero from '../components/Home/Hero';
+import Partners from '../components/Partners/Partners';
 import DescSec from '../components/DescSec';
-import Addr from '../components/Addr';
+import Addr from '../components/About/Addr';
 import Rev from '../components/Rev';
 import Chang from '../components/Chang';
-import Tabs from '../components/Tabs';
-import Scroll from '../components/Scroll';
+import Tabs from '../components/Products/Products';
+import Scroll from '../components/ScrollTo/ScrollTo';
 
 
 const Home: NextPage = () => {
@@ -27,7 +27,7 @@ const Home: NextPage = () => {
 
         <main >
         <Hero/>
-        <LogoSlide/>
+        <Partners/>
         <DescSec/>
         <Scroll/>
         <Addr/>

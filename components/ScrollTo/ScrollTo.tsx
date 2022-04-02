@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { FiArrowDown } from 'react-icons/fi'
-import { lightTheme, darkTheme } from '../themes'
+import { lightTheme, darkTheme } from '../../themes'
 
 const Container = styled.div` 
 padding:20px 0 ;

@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import Logo from '../assets/images/vefilogo.png'
-import Slash from '../assets/images/slash.png'
-import ThemeSwitcher from './ThemeSwitch/index'
+import Logo from '../../assets/images/vefilogo.png'
+import Slash from '../../assets/images/slash.png'
+import ThemeSwitcher from '../ThemeSwitch/index'
 import { BiMenuAltLeft} from 'react-icons/bi'
 import { FaTimes} from 'react-icons/fa'
 import React, { useState } from 'react'
@@ -16,7 +16,7 @@ import
     Sec
 }
 
- from '../styles/NavBar.styles'
+ from '../../styles/NavBar.styles'
 import Link from 'next/link'
 
  type DivProps= {

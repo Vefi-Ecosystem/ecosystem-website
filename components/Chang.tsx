@@ -60,7 +60,7 @@ function Chang() {
     <Container>
       <div>
       <Title>
-          Changing the world’s future through <br/> Blockchain
+          Changing the world’s future <br/>  through Blockchain
         </Title>
         <Desc>
         To build and deploy innovative, cutting <br/> edge and scalable Blockchain solutions.

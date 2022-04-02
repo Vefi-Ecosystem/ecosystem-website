@@ -17,7 +17,8 @@ export const darkTheme = {
 };
 
 export const lightTheme = {
-  backgroundColor: '#E5E5E5',
+  // backgroundColor: '#E5E5E5',
+  backgroundColor: '#EEEEEE',
   headerTextColor: '#000000',
   linkColor: '#333333',
   regularTextColor: '#333333',

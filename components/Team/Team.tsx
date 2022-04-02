@@ -6,9 +6,9 @@ import Kingsley from '../assets/images/kingsley.png'
 import {
 Container
 }
-from '../styles/Mind.style'
+from '../../styles/Mind.style'
 
-function Mind() {
+function Team() {
   return (
     <Container>
         <div className='mother-con'>
@@ -83,4 +83,4 @@ function Mind() {
   )
 }
 
-export default Mind
+export default Team

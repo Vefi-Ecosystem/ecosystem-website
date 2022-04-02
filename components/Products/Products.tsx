@@ -1,9 +1,9 @@
 import React, { useState }from 'react'
 import {
     Container
-} from '../styles/Tabs.style'
+} from '../../styles/Tabs.style'
 import {HiOutlineArrowNarrowRight} from 'react-icons/hi'
-import {lightTheme, darkTheme} from '../themes'
+import {lightTheme, darkTheme} from '../../themes'
 
 interface Props {
     index : number
