@@ -1,0 +1,61 @@
+import styled from "styled-components";
+
+export const Container = styled.div`
+margin: 60px 0;
+display: flex;
+flex-direction:column ;
+align-items:center ;
+
+.prod{
+    margin:20px 0 ;
+    font-size: 62px;
+line-height: 74px;
+/* identical to box height, or 119% */
+
+text-transform: capitalize;
+
+color: rgba(29, 29, 29, 1);
+}
+
+.tab-block{
+    padding:0 100px ;
+
+    .tab-seg{
+        margin: 20px 0;
+        display:flex ;
+
+        .tabs{
+        display:flex ;
+        align-items:center ;
+        padding:5px 20px ;
+        border: 0.5px solid #1D1D1D;
+        box-sizing: border-box;
+        border-radius: 3px;
+        margin:0 20px ;
+        cursor: pointer;
+
+       
+
+    }
+    .tabs.active-tab{
+            background: rgba(16, 93, 207, 1);
+            border:none ;
+            color:#fff ;
+        }
+
+     
+    }
+   
+}
+
+.tab-content{
+    .content{
+            display:none ;
+        }
+
+        .content.active-content{
+            display:block ;
+        }
+}
+
+`

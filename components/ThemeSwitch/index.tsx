@@ -8,8 +8,8 @@ const ThemeSwitcher = styled.div`
   label {
     --gap: 5px;
     --size: 23px;
-    width: 97px;
-    height: 46px;
+    height: 32px;
+        width: 60px;
     padding: 0 7px;
     display: flex;
     align-items: center;
@@ -22,8 +22,8 @@ const ThemeSwitcher = styled.div`
     z-index: 1;
 
     .icon {
-      height: 38px;
-      width: 38px;
+      height: 23px;
+      width: 23px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -48,8 +48,8 @@ const ThemeSwitcher = styled.div`
     border-radius: 50%;
     transform: translateY(-50%);
     top: 50%;
-    height: 38px;
-    width: 38px;
+    height: 23px;
+    width: 23px;
     left: 7px;
     background: ${(props: any) => props.theme.themeSwitchBtn};
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.25);
@@ -57,7 +57,7 @@ const ThemeSwitcher = styled.div`
     transition: 0.2s ease left;
   }
   input:checked + label::after {
-    left: calc(100% - var(--size) - 1.4pc);
+    left: calc(100% - var(--size) - 7px);
   }
 `;
 
