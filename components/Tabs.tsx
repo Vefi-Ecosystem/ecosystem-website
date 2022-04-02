@@ -2,6 +2,8 @@ import React, { useState }from 'react'
 import {
     Container
 } from '../styles/Tabs.style'
+import {HiOutlineArrowNarrowRight} from 'react-icons/hi'
+import {lightTheme, darkTheme} from '../themes'
 
 interface Props {
     index : number
@@ -67,19 +69,87 @@ function Tabs() {
             <div
                          className={toggle ===1  ? ' content active-content' : 'content'}
                 >
-                    <div>
-                            text
+                    <div className='content-img'>
+                            
                     </div>
-                    <div>
-                        image
+                    <div className='content-text'>
+                        <div className='product-con'>
+                          <div className="prod-log-con">
+                          <div className='prod-log'>logs</div>
+                            <div className='prod-title'>
+                                BlockChain
+                            </div>
+                         
+                          </div>
+                          <div className="prod-desc">
+                          3 Swap is a newly designed Decentralized 
+exchange that makes decentralized trading 
+fast with low transaction fees and traffic...
+                          </div>
+                          <div className="prod-btn">
+                              <button>
+                                  More details <HiOutlineArrowNarrowRight className ='icon'/>  
+                              </button>
+                          </div>
+                        </div>
                     </div>
                 </div>
-            <div 
+                <div
                          className={toggle ===2  ? ' content active-content' : 'content'}
-                         >lorem2</div>
-            <div
+                >
+                    <div className='content-img'>
+                            
+                    </div>
+                    <div className='content-text'>
+                        <div className='product-con'>
+                          <div className="prod-log-con">
+                          <div className='prod-log'>logs</div>
+                            <div className='prod-title'>
+                                3swap
+                            </div>
+                         
+                          </div>
+                          <div className="prod-desc">
+                          3 Swap is a newly designed Decentralized 
+exchange that makes decentralized trading 
+fast with low transaction fees and traffic...
+                          </div>
+                          <div className="prod-btn">
+                              <button>
+                                  More details <HiOutlineArrowNarrowRight className ='icon'/>  
+                              </button>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div
                          className={toggle ===3  ? ' content active-content' : 'content'}
-                         >lorem3</div>
+                >
+                    <div className='content-img'>
+                            
+                    </div>
+                    <div className='content-text'>
+                        <div className='product-con'>
+                          <div className="prod-log-con">
+                          <div className='prod-log'>logs</div>
+                            <div className='prod-title'>
+                                Wallet
+                            </div>
+                         
+                          </div>
+                          <div className="prod-desc">
+                          3 Swap is a newly designed Decentralized 
+exchange that makes decentralized trading 
+fast with low transaction fees and traffic...
+                          </div>
+                          <div className="prod-btn">
+                              <button>
+                                  More details <HiOutlineArrowNarrowRight className ='icon'/>  
+                              </button>
+                          </div>
+                        </div>
+                    </div>
+                </div>
             <div
                          className={toggle ===4  ? ' content active-content' : 'content'}
                          >lorem4</div>

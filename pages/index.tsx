@@ -9,6 +9,7 @@ import Addr from '../components/Addr';
 import Rev from '../components/Rev';
 import Chang from '../components/Chang';
 import Tabs from '../components/Tabs';
+import Scroll from '../components/Scroll';
 
 
 const Home: NextPage = () => {
@@ -28,6 +29,7 @@ const Home: NextPage = () => {
         <Hero/>
         <LogoSlide/>
         <DescSec/>
+        <Scroll/>
         <Addr/>
         <Rev/>
         <Chang/>
