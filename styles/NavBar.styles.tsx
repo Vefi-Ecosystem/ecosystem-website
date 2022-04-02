@@ -68,6 +68,9 @@ display: flex;
 
    
 }
+a{
+    color:${(props) => props.theme.linkColor}
+}
 
 
 .link{
@@ -170,7 +173,9 @@ text-align: center;
 letter-spacing: -0.015em;
 margin-right:40px ;
 
-color: ${(props: any) => props.theme.linkColor};
+a{
+    color: ${(props: any) => props.theme.linkColor};
+}
 
 @media screen and (max-width: 1000px){
        display:none ;
