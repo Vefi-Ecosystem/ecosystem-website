@@ -7,8 +7,8 @@ import Partners from '../components/Partners/Partners';
 import About1 from '../components/About/About1';
 import About2 from '../components/About/About2';
 import About3 from '../components/About/About3';
-import Chang from '../components/Chang';
-import Tabs from '../components/Products/Products';
+import About4 from '../components/About/About4';
+import Products from '../components/Products/Products';
 import Scroll from '../components/ScrollTo/ScrollTo';
 
 
@@ -32,8 +32,8 @@ const Home: NextPage = () => {
         <Scroll/>
         <About2/>
         <About3/>
-        <Chang/>
-        <Tabs/>
+        <About4/>
+        {/* <Products/> */}
 
          
 

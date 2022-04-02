@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import styled from 'styled-components'
-import Chan from '../assets/images/chang.png'
+import Chan from '../../assets/images/chang.png'
 
 const Container = styled.div`
 padding: 100px 0 0 50px;
@@ -9,10 +9,36 @@ display:flex ;
 align-items: center;
 justify-content: space-between;
 
+&::before{
+  content:'' ;
+  height:100% ;
+  width:100% ;
+  background: red;
+  z-index:2 ;
+}
+
+.title-desc{
+
+
+  @media screen and (max-width:900px){
+  position:absolute;
+z-index :2 ;
+bottom: 30px;
+width:90% ;
+display:flex ;
+flex-direction:column ;
+justify-content:center ;
+align-items:center ;
+}
+}
 
 @media screen and (max-width:900px){
+  position:relative ;
+  overflow:hidden ;
   flex-direction:column-reverse ;
   padding:20px  ;
+  justify-content: center;
+
 }
 
 
@@ -28,6 +54,7 @@ color: ${(props: any) => props.theme.headerTextColor};
   margin-top:15px ;
   font-size: 20px;
 line-height: 23px;
+text-align:center ;
 }
 `
 const Desc = styled.div`
@@ -49,16 +76,19 @@ display:none ;
 }
 
 @media screen and (max-width:900px){
+  margin-top:10px ;
   font-size: 15px;
 line-height: 20px;
+text-align:center ;
+
 }
 
 `
 
-function Chang() {
+function About4() {
   return (
     <Container>
-      <div>
+      <div className='title-desc'>
       <Title>
           Changing the world’s future <br/>  through Blockchain
         </Title>
@@ -78,4 +108,4 @@ function Chang() {
   )
 }
 
-export default Chang
+export default About4
