@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import styled from 'styled-components'
 import Revo from '../assets/images/revo.png'
+import Scroll from './Scroll'
 
 const Container = styled.div`
 padding: 100px 50px 0 50px;
@@ -67,6 +68,8 @@ function Rev() {
 in the Blockchain Technology <br/> Globally</Title>
         <Desc>
         Our Vision is to be the global leader for <br/> institutional and mass adoption by providing <br/> blockchain infrastructure and solutions.        </Desc>
+        
+        <Scroll justifyContent="flex-start" url="#change_section" />
       </div>
       <div>
           <Image src={Revo}
