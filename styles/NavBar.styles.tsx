@@ -81,6 +81,10 @@ display: flex;
     justify-content:center ;
     letter-spacing: -0.015em;
 
+    a{
+          color: ${(props: any) => props.theme.linkColor};
+    }
+
     @media screen and (max-width: 1000px){
 margin:20px 0 ;
 align-items:  flex-start;
@@ -170,7 +174,9 @@ text-align: center;
 letter-spacing: -0.015em;
 margin-right:40px ;
 
-color: ${(props: any) => props.theme.linkColor};
+a{
+    color: ${(props: any) => props.theme.linkColor};
+}
 
 @media screen and (max-width: 1000px){
        display:none ;

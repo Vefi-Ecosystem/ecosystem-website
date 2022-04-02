@@ -1,6 +1,7 @@
 export const darkTheme = {
   backgroundColor: '#1D1D1D',
   headerTextColor: '#B8B8B8',
+  linkColor: '#DDDDDD',
   regularTextColor: '#8F8F8F',
   svgIconColor: '#DDDDDD',
   themeSwitchBtn: '#1D1D1D',
@@ -11,6 +12,7 @@ export const darkTheme = {
 export const lightTheme = {
   backgroundColor: '#E5E5E5',
   headerTextColor: '#000000',
+  linkColor: '#333333',
   regularTextColor: '#333333',
   svgIconColor: '#1D1D1D',
   themeSwitchBtn: '#EEEEEE',
