@@ -28,7 +28,7 @@ color: #8F8F8F;
 
 `
 
-function Addr() {
+function About1() {
   return (
     <Container>
         <BigT>
@@ -42,4 +42,4 @@ function Addr() {
   )
 }
 
-export default Addr
+export default About1

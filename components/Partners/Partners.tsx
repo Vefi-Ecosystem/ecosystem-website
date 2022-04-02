@@ -13,7 +13,6 @@ import Ycombi from '../../assets/images/ycombi.png'
 const Container = styled.div`
 margin:40px 0 ;
 background: #DDDDDD;
-/* padding ; */
 display:flex ;
 align-items:center ;
 justify-content:space-between ;
@@ -26,7 +25,7 @@ div{
     display:flex ;
 align-items:center ;
 justify-content:center ;
-    margin: 0px 20px;
+    /* margin: 0px 20px; */
     min-width:  100px;
     padding: 20px 0;
 }
@@ -35,6 +34,18 @@ justify-content:center ;
 function Partners() {
   return (
     <Container>
+         <div>
+            <Image src={Ycombi}
+             alt='Partners'/>
+        </div>
+        <div>
+            <Image src={Stanford}
+             alt='Partners'/>
+        </div>
+        <div>
+            <Image src={Polaroid}
+             alt='Partners'/>
+        </div>
         <div>
             <Image src={Cosmic}
             alt='Partners'/>
@@ -47,22 +58,13 @@ function Partners() {
             <Image src={Miro}
              alt='Partners'/>
         </div>
-        <div>
-            <Image src={Polaroid}
-             alt='Partners'/>
-        </div>
+        
         <div>
             <Image src={Spacex}
              alt='Partners'/>
         </div>
-        <div>
-            <Image src={Stanford}
-             alt='Partners'/>
-        </div>
-        <div>
-            <Image src={Ycombi}
-             alt='Partners'/>
-        </div>
+       
+       
 
     </Container>
   )

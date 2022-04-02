@@ -1,22 +1,21 @@
 import Image from 'next/image'
 import React from 'react'
 import styled from 'styled-components'
-import Revo from '../assets/images/revo.png'
+import Ether from '../../assets/images/ethe.png'
 
 const Container = styled.div`
-padding: 100px 50px 0 50px;
+padding: 100px 0 0 50px;
 display:flex ;
-flex-direction: row-reverse ;
 align-items: center;
 justify-content: space-between;
 
 
-
 @media screen and (max-width:900px){
-flex-direction: column;
-padding:20px ;
-
+  flex-direction:column-reverse ;
+  padding:20px  ;
 }
+
+
 `
 const Title = styled.div`
 font-size: 46px;
@@ -42,37 +41,35 @@ align-items: center;
 
 color: ${(props: any) => props.theme.regularTextColor};
 
-
 br{
 
-@media screen and (max-width:900px){
+  @media screen and (max-width:900px){
 display:none ;
 }
 }
 
 @media screen and (max-width:900px){
-font-size: 15px;
+  font-size: 15px;
 line-height: 20px;
-margin-bottom: 20px;
 }
-
 
 `
 
-function Rev() {
+function DescSec() {
   return (
     <Container>
       <div>
-      <Title>revolutionizing Innovation <br/> 
-in the Blockchain Technology <br/> Globally</Title>
+      <Title>We are building one of <br />
+the largest Blockchain  <br /> Infrastructure and Solution <br/> company</Title>
         <Desc>
-        Our Vision is to be the global leader for <br/> institutional and mass adoption by providing <br/> blockchain infrastructure and solutions.        </Desc>
+        Our Mission is to Improve the freedom of money <br/> globally through the integration of institutions, <br/> people, groups and businesses into the <br/>Blockchain economy.
+        </Desc>
       </div>
       <div>
-          <Image src={Revo}
-             alt='Explanatory image'
+          <Image src={Ether}
+            alt='Explanatory image'
           height= {546}
-          width = {480}
+          width = {550}
           />
       </div>
 
@@ -80,4 +77,4 @@ in the Blockchain Technology <br/> Globally</Title>
   )
 }
 
-export default Rev
+export default DescSec

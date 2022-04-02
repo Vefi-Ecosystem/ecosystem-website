@@ -1,21 +1,22 @@
 import Image from 'next/image'
 import React from 'react'
 import styled from 'styled-components'
-import Ether from '../assets/images/ethe.png'
+import Revo from '../assets/images/revo.png'
 
 const Container = styled.div`
-padding: 100px 0 0 50px;
+padding: 100px 50px 0 50px;
 display:flex ;
+flex-direction: row-reverse ;
 align-items: center;
 justify-content: space-between;
 
 
+
 @media screen and (max-width:900px){
-  flex-direction:column-reverse ;
-  padding:20px  ;
+flex-direction: column;
+padding:20px ;
+
 }
-
-
 `
 const Title = styled.div`
 font-size: 46px;
@@ -41,35 +42,37 @@ align-items: center;
 
 color: ${(props: any) => props.theme.regularTextColor};
 
+
 br{
 
-  @media screen and (max-width:900px){
+@media screen and (max-width:900px){
 display:none ;
 }
 }
 
 @media screen and (max-width:900px){
-  font-size: 15px;
+font-size: 15px;
 line-height: 20px;
+margin-bottom: 20px;
 }
+
 
 `
 
-function DescSec() {
+function About3() {
   return (
     <Container>
       <div>
-      <Title>We are building one of <br />
-the largest Blockchain  <br /> Infrastructure and Solution <br/> company</Title>
+      <Title>revolutionizing Innovation <br/> 
+          in the Blockchain Technology <br/> Globally</Title>
         <Desc>
-        Our Mission is to Improve the freedom of money <br/> globally through the integration of institutions, <br/> people, groups and businesses into the <br/>Blockchain economy.
-        </Desc>
+        Our Vision is to be the global leader for <br/> institutional and mass adoption by providing <br/> blockchain infrastructure and solutions.        </Desc>
       </div>
       <div>
-          <Image src={Ether}
-            alt='Explanatory image'
+          <Image src={Revo}
+             alt='Explanatory image'
           height= {546}
-          width = {550}
+          width = {480}
           />
       </div>
 
@@ -77,4 +80,4 @@ the largest Blockchain  <br /> Infrastructure and Solution <br/> company</Title>
   )
 }
 
-export default DescSec
+export default About3

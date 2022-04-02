@@ -4,9 +4,9 @@ import Layout from '../components/Layout';
 import NavBar from '../components/Navbar/Navbar';
 import Hero from '../components/Home/Hero';
 import Partners from '../components/Partners/Partners';
-import DescSec from '../components/DescSec';
-import Addr from '../components/About/Addr';
-import Rev from '../components/Rev';
+import About1 from '../components/About/About1';
+import About2 from '../components/About/About2';
+import About3 from '../components/About/About3';
 import Chang from '../components/Chang';
 import Tabs from '../components/Products/Products';
 import Scroll from '../components/ScrollTo/ScrollTo';
@@ -28,10 +28,10 @@ const Home: NextPage = () => {
         <main >
         <Hero/>
         <Partners/>
-        <DescSec/>
+        <About1/>
         <Scroll/>
-        <Addr/>
-        <Rev/>
+        <About2/>
+        <About3/>
         <Chang/>
         <Tabs/>
 
