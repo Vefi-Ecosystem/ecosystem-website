@@ -92,7 +92,11 @@ function NavBar() {
    
       <Div3>
       <div className='join'>
-     <div> Join our community</div>
+     <div>
+       <Link href='/'>
+       <a href=""> Join our community</a>
+       </Link>
+     </div>
      <div className='slash'>
        <Image src={Slash}
         alt='decor'/>

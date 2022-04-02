@@ -22,7 +22,7 @@ font-size: 46px;
 line-height: 54px;
 text-transform: capitalize;
 
-color: #000000;
+color: ${(props: any) => props.theme.headerTextColor};
 
 @media screen and (max-width:900px){
   margin-top:15px ;
@@ -39,7 +39,7 @@ line-height: 32px;
 display: flex;
 align-items: center;
 
-color: #333333;
+color: ${(props: any) => props.theme.regularTextColor};
 
 br{
 

@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import {darkTheme, lightTheme} from '../themes'
 
 type DivProps= {
     click : any
@@ -81,7 +80,6 @@ display: flex;
     text-align: center;
     justify-content:center ;
     letter-spacing: -0.015em;
-    color: ${(props: any) => props.theme.linkColor};
 
     @media screen and (max-width: 1000px){
 margin:20px 0 ;
@@ -130,7 +128,7 @@ export const Div1 = styled.div`
 
         .icon{
             font-size: 34px;
-            color: #1D1D1D; 
+            color: ${(props: any) => props.theme.svgIconColor};
         }
     }
 `

@@ -6,6 +6,17 @@ display: flex;
 flex-direction:column ;
 align-items:center ;
 
+.prod{
+    margin:20px 0 ;
+    font-size: 62px;
+line-height: 74px;
+/* identical to box height, or 119% */
+
+text-transform: capitalize;
+
+color: rgba(29, 29, 29, 1);
+}
+
 .tab-block{
     padding:0 100px ;
 
@@ -21,6 +32,7 @@ align-items:center ;
         box-sizing: border-box;
         border-radius: 3px;
         margin:0 20px ;
+        cursor: pointer;
 
        
 
