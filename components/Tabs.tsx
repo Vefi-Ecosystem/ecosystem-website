@@ -66,7 +66,14 @@ function Tabs() {
         <div className="tab-content">
             <div
                          className={toggle ===1  ? ' content active-content' : 'content'}
-                >lorem1</div>
+                >
+                    <div>
+                            text
+                    </div>
+                    <div>
+                        image
+                    </div>
+                </div>
             <div 
                          className={toggle ===2  ? ' content active-content' : 'content'}
                          >lorem2</div>

@@ -51,10 +51,13 @@ color: rgba(29, 29, 29, 1);
 .tab-content{
     .content{
             display:none ;
+            align-items: center;
+            justify-content: space-between;
+            
         }
 
         .content.active-content{
-            display:block ;
+            display:flex ;
         }
 }
 
