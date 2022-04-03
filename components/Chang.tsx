@@ -57,7 +57,7 @@ line-height: 20px;
 
 function Chang() {
   return (
-    <Container>
+    <Container id="change_section">
       <div>
       <Title>
           Changing the world’s future through <br/> Blockchain

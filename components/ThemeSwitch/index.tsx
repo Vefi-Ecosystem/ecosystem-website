@@ -62,15 +62,15 @@ const ThemeSwitcher = styled.div`
 `;
 
 const ThemeSwitch = (props: any) => {
-  const [iconColor, setIconColor] = useState(lightTheme.themeSwitchBtn);
+  const [iconColor, setIconColor] = useState(darkTheme.themeSwitchBtn);
 
   const { theme, themeSwitchHandler } = useContext<any | null>(GlobalContext);
 
   const handleCheck = (e: any) => {
     if (e.target.checked) {
-      setIconColor(darkTheme.themeSwitchBtn);
-    } else {
       setIconColor(lightTheme.themeSwitchBtn);
+    } else {
+      setIconColor(darkTheme.themeSwitchBtn);
     }
   };
 

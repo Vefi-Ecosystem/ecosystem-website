@@ -1,12 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 import { FiArrowDown } from 'react-icons/fi'
+import { CustomComponentProps } from './props';
 
-const Container = styled.div` 
-padding:20px 0 ;
+
+const Container = styled.div<CustomComponentProps>` 
+    padding:20px 0 ;
     display: flex;
     align-items:center ;
-    justify-content:center ;
+    justify-content:${(props) => props.justifyContent || "center"};
     cursor: pointer;
 
 div{
@@ -16,19 +18,21 @@ div{
     width: 60px;
 height: 60px;
 border-radius: 50%;
-background: #F2F2F2;
-box-shadow: 0px 9px 12px rgba(0, 0, 0, 0.16);
+background: ${(props:any) => props.theme.jumpArrowbgColor};
+box-shadow: ${(props:any) => props.theme.jumpArrowShadow};
 font-size:25px ;
 color:rgba(16, 93, 207, 1) ;
 /* transform: rotate(-90deg) */
 }
 `
 
-function Scroll() {
+function Scroll(props:any & CustomComponentProps) {
   return (
-    <Container>
+    <Container justifyContent={props.justifyContent}>
     <div>
-        <FiArrowDown/>
+        <a href={props.url}>
+          <FiArrowDown/>
+        </a>
     </div>
 
     </Container>

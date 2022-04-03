@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import styled from 'styled-components'
 import Ether from '../assets/images/ethe.png'
+import Scroll from './Scroll'
 
 const Container = styled.div`
 padding: 100px 0 0 50px;
@@ -57,23 +58,25 @@ line-height: 20px;
 
 function DescSec() {
   return (
-    <Container>
-      <div>
-      <Title>We are building one of <br />
-the largest Blockchain  <br /> Infrastructure and Solution <br/> company</Title>
-        <Desc>
-        Our Mission is to Improve the freedom of money <br/> globally through the integration of institutions, <br/> people, groups and businesses into the <br/>Blockchain economy.
-        </Desc>
-      </div>
-      <div>
+    <>
+      <Container>
+        <div>
+          <Title>We are building one of <br />
+            the largest Blockchain  <br /> Infrastructure and Solution <br /> company</Title>
+          <Desc>
+            Our Mission is to Improve the freedom of money <br /> globally through the integration of institutions, <br /> people, groups and businesses into the <br />Blockchain economy.
+          </Desc>
+        </div>
+        <div>
           <Image src={Ether}
             alt='Explanatory image'
-          height= {546}
-          width = {550}
+            height={546}
+            width={550}
           />
-      </div>
-
-    </Container>
+        </div>
+      </Container>
+      <Scroll url="#address" />
+    </>
   )
 }
 
