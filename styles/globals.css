@@ -28,20 +28,20 @@ p {
 
 @font-face {
   font-family: Gilroy-medium;
-  src: url(../assets/Gilroy/Gilroy-Medium.ttf);
+  src: url(/fonts/Gilroy/Gilroy-Medium.ttf);
 }
 
 @font-face {
   font-family: Gilroy-bold;
-  src: url(../assets/Gilroy/Gilroy-Bold.ttf);
+  src: url(/fonts/Gilroy/Gilroy-Bold.ttf);
 }
 
 @font-face {
   font-family: Gilroy-semibold;
-  src: url(../assets/Gilroy/Gilroy-SemiBold.ttf);
+  src: url(/fonts/Gilroy/Gilroy-SemiBold.ttf);
 }
 
 @font-face {
   font-family: Gilroy-extra;
-  src: url(../assets/Gilroy/Gilroy-ExtraBold.ttf);
+  src: url(/fonts/Gilroy/Gilroy-ExtraBold.ttf);
 }
