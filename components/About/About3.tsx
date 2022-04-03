@@ -1,7 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 import styled from 'styled-components'
+<<<<<<< HEAD:components/About/About3.tsx
 import Revo from '../../assets/images/revo.png'
+=======
+import Revo from '../assets/images/revo.png'
+import Scroll from './Scroll'
+>>>>>>> 184723b4b713f4a97641d5e286be453c758a0b41:components/Rev.tsx
 
 const Container = styled.div`
 padding: 100px 50px 0 50px;
@@ -94,8 +99,14 @@ function About3() {
       <Title>revolutionizing Innovation <br/> 
           in the Blockchain Technology <br/> Globally</Title>
         <Desc>
+<<<<<<< HEAD:components/About/About3.tsx
         Our Vision is to be the global leader for <br/> institutional and mass adoption by providing <br/> blockchain infrastructure and solutions.        
         </Desc>
+=======
+        Our Vision is to be the global leader for <br/> institutional and mass adoption by providing <br/> blockchain infrastructure and solutions.        </Desc>
+        
+        <Scroll justifyContent="flex-start" url="#change_section" />
+>>>>>>> 184723b4b713f4a97641d5e286be453c758a0b41:components/Rev.tsx
       </div>
       <div className='img-con'>
           <Image src={Revo}

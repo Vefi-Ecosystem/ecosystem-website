@@ -68,6 +68,9 @@ display: flex;
 
    
 }
+a{
+    color:${(props) => props.theme.linkColor}
+}
 
 
 .link{
