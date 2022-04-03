@@ -9,6 +9,7 @@ import Addr from '../components/Addr';
 import Rev from '../components/Rev';
 import Chang from '../components/Chang';
 import Tabs from '../components/Tabs';
+import Footer from '../components/Footer';
 
 
 const Home: NextPage = () => {
@@ -32,7 +33,7 @@ const Home: NextPage = () => {
         <Rev/>
         <Chang/>
         <Tabs/>
-
+        <Footer/>
          
 
          
