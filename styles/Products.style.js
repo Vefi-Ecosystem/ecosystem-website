@@ -1,161 +1,133 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-export const Container = styled.div` 
-margin-top:70px ;
-padding:30px 50px ;
+export const Container = styled.div`
+margin: 60px 0;
 display: flex;
-align-items: center;
-justify-content:space-between ;
-background: linear-gradient(180deg, rgba(221, 221, 221, 0) 0%, #DDDDDD 55.73%, rgba(221, 221, 221, 0) 100%);
-
-@media screen and (max-width: 900px){
-    flex-direction:column-reverse ;
-    padding:0 20px ;
-}
+flex-direction:column ;
+align-items:center ;
 
 
+.prod{
+    margin:20px 0 ;
+    font-size: 62px;
+line-height: 74px;
 
-.mother-con{
-    display:flex ;
-    border-right: 2px solid rgba(16, 93, 207, 0.27);
+/* identical to box height, or 119% */
 
-
-    @media screen and (max-width: 900px){
-    border:none ;
-}
-
-    .img-card1{
-        margin:50px 20px 0  0;
-        .mind-con{
-            display:flex ;
-            flex-direction:column ;
-            align-items:center ;
-            justify-content:center ;
-            padding:15px 0 ;
-
-            .mind-name{
-                font-size: 26px;
-line-height: 24px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: capitalize;
-margin-bottom:5px ;
-color: #1D1D1D;
-
-
-}
-.post{
- font-size: 16px;
-line-height: 14px;
-display: flex;
-align-items: center;
-text-align: center;
 text-transform: capitalize;
 
-color: #333333;
-            }
+color: rgba(29, 29, 29, 1);
+}
+
+.tab-block{
+    padding:0 100px ;
+
+    .tab-seg{
+        margin: 20px 0;
+        display:flex ;
+
+        .tabs{
+        display:flex ;
+        align-items:center ;
+        padding:5px 20px ;
+        border: 0.5px solid #1D1D1D;
+        box-sizing: border-box;
+        border-radius: 3px;
+        margin:0 20px ;
+        cursor: pointer;
+        color:${(props) => props.theme.tabButtonText} ;
+        background: ${(props) => props.theme.tabButtonBackground};
+        text-transform: uppercase ;
+
+       
+
+    }
+    .tabs.active-tab{
+        background: ${(props) => props.theme.tabButtonBackgroundActive};
+            border:none ;
+            color:${(props) => props.theme.tabButtonTextActive} ;
         }
 
-        @media screen and (max-width: 900px){
-    border:none ;
-}
-        
+     
     }
-    .img-card2{
-        margin:0 20px 60px  0;
-
-         .mind-con{
-            display:flex ;
-            flex-direction:column ;
-            align-items:center ;
-            justify-content:center ;
-            padding:15px 0 ;
-
-            .mind-name{
-                font-size: 26px;
-line-height: 24px;
-margin-bottom:5px ;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: capitalize;
-
-color: #1D1D1D;
-
-
-
-            }
-            .post{
-                font-size: 16px;
-line-height: 14px;
-/* identical to box height, or 88% */
-
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: capitalize;
-
-color: #333333;
-            }
-        }
-    }
-
    
 }
 
-.gen-card{
-        background: #DDDDDD;
-        padding:80px 40px ;
-        width:600px ;
-       
+.tab-content{
+    .content{
+            display:none ;
+            align-items: center;        
+            justify-content: space-between;
+            padding: 30px 0;
+            
 
-        @media screen and (max-width:900px){
-            padding:20px ;
-            width:auto ;
-            margin-bottom: 30px;
-            background:none ;
+            .content-img{
+                width :350px;
+                height :300px;
+                border: 1px solid black;
+                background: #DDDDDD;
+            }
+
+            .content-text{
+                margin-left:35px ;
+                .product-con{
+                 
+                    
+                    .prod-log-con{
+                        display: flex;
+                        .prod-log{
+                        margin-right: 20px;
+
+                    }
+                    .prod-title{
+                        font-size: 50px;
+                        line-height: 16px;
+                        display: flex;
+                        align-items: center;
+                        color:${(props) => props.theme.prodText} ;
+
+                    }
+                    }
+                    .prod-desc{
+                        margin-top:30px ;
+                        width: 551px;
+                        font-size: 27px;
+                        line-height: 32px;
+                        display: flex;
+                        align-items: center;
+                        text-align: justify;
+                        color:${(props) => props.theme.regularTextColor} ;
+                    }
+                    .prod-btn{
+                        margin-top:30px ;
+
+                    
+                    button{
+                        padding:10px 30px ;
+                        outline:none ;
+                        border:none ;
+                        background: #105DCF;
+                        border-radius: 5px;
+                        font-size: 20px;
+                        line-height: 16px;
+                        display: flex;
+                        align-items: center;
+                        color: #FFFFFF;
+                        cursor: pointer;
+
+                        .icon{
+                            font-size: 25px;  
+                            margin-left:10px ;
+                        }
+                    }
+                }
+                }
+            }
         }
 
-
-        .big-text{
-            font-size: 62px;
-line-height: 74px;
-display: flex;
-align-items: center;
-text-transform: capitalize;
-
-br{
-    @media screen and (max-width: 900px){
-   display:none ;
-}
-}
-
-@media screen and (max-width: 900px){
-    font-size: 30px;
-line-height: 35px;
-}
+        .content.active-content{
+            display:flex ;
         }
-
-        .small-text{
-            margin-top: 20px;
-            font-size: 27px;
-            line-height: 32px;
-            display: flex;
-            align-items: center;
-            color: #333333;
-
-
-            @media screen and (max-width: 900px){
-                font-size: 15px;
-line-height: 23px;
-        }
-
 }
-
-
-    }
-
-
 
 `

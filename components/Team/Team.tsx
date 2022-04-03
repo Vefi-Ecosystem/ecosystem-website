@@ -6,7 +6,7 @@ import Kingsley from '../assets/images/kingsley.png'
 import {
 Container
 }
-from '../../styles/Mind.style'
+from '../../styles/Team.style'
 
 function Team() {
   return (
