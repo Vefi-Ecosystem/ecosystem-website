@@ -22,6 +22,10 @@ color: rgba(29, 29, 29, 1);
 .tab-block{
     padding:0 100px ;
 
+    @media screeb and (max-width:900px){
+        padding:10px ;
+    }
+
     .tab-seg{
         margin: 20px 0;
         display:flex ;
@@ -29,23 +33,45 @@ color: rgba(29, 29, 29, 1);
         .tabs{
         display:flex ;
         align-items:center ;
-        padding:5px 20px ;
-        border: 0.5px solid #1D1D1D;
+        padding:10px 20px ;
+        border: 0.5px solid ${(props) => props.theme.productBorder};
         box-sizing: border-box;
         border-radius: 3px;
         margin:0 20px ;
         cursor: pointer;
-        color:${(props) => props.theme.tabButtonText} ;
-        background: ${(props) => props.theme.tabButtonBackground};
+        background: ${(props) => props.theme.productBackground};
         text-transform: uppercase ;
+
+        .svg{
+            fill:${(props) => props.theme.svgColor} ;
+            margin-right:10px ;
+            stroke:${(props) => props.theme.svgColor} ;
+        }
+
+        .prod-tab{
+            color:${(props) => props.theme.productText} ;
+            margin:0 ;
+            padding:0 ;
+        }
 
        
 
     }
     .tabs.active-tab{
-        background: ${(props) => props.theme.tabButtonBackgroundActive};
+        background: ${(props) => props.theme.productBackgroundActive};
             border:none ;
-            color:${(props) => props.theme.tabButtonTextActive} ;
+        }
+
+        .svg.active-tab{
+            stroke:${(props) => props.theme.svgColorActive} ;
+            fill:${(props) => props.theme.svgColorActive} ;
+            margin-right:10px ;
+        }
+
+        .prod-tab.active-tab{
+            color:${(props) => props.theme.productTextActive} ;
+            margin:0 ;
+            padding:0 ;
         }
 
      
@@ -65,7 +91,7 @@ color: rgba(29, 29, 29, 1);
                 width :350px;
                 height :300px;
                 border: 1px solid black;
-                background: #DDDDDD;
+                background: ${(props) => props.theme.contImg};
             }
 
             .content-text{
@@ -75,8 +101,14 @@ color: rgba(29, 29, 29, 1);
                     
                     .prod-log-con{
                         display: flex;
+                        align-items:center ;
                         .prod-log{
                         margin-right: 20px;
+
+                        .svg-active{
+                            fill:${(props) => props.theme.svgColor} ;
+
+                        }
 
                     }
                     .prod-title{
@@ -84,7 +116,7 @@ color: rgba(29, 29, 29, 1);
                         line-height: 16px;
                         display: flex;
                         align-items: center;
-                        color:${(props) => props.theme.prodText} ;
+                        color:${(props) => props.theme.prodTitle} ;
 
                     }
                     }

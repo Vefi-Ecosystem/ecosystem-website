@@ -9,10 +9,20 @@ export const darkTheme = {
   themeSwitchBackground: '#161616',
   jumpArrowbgColor:"#1D1D1D",
   jumpArrowShadow:'0px 9px 12px rgba(0, 0, 0, 0.26)',
+  productBackground: 'transparent',
+  productBackgroundActive: '#B8B8B8',
+  productText: '#B8B8B8',
+  productTextActive: '#1D1D1D',
+  svgColorActive: '#1D1D1D',
+  svgColor: '#B8B8B8',
+  productBorder: '#B8B8B8',
+  productBorderActive: 'none',
+  prodTitle: '#FFFFFF',
+  contImg: '#1D1D1D'
+
 };
 
 export const lightTheme = {
-  // backgroundColor: '#E5E5E5',
   backgroundColor: '#EEEEEE',
   headerTextColor: '#000000',
   regularTextColor: '#333333',
@@ -23,4 +33,19 @@ export const lightTheme = {
   linkColor:"#1D1D1D",
   jumpArrowbgColor:"#F2F2F2",
   jumpArrowShadow:'0px 9px 12px rgba(0, 0, 0, 0.16)',
+  productBackground: 'transparent',
+  productBackgroundActive: '#105DCF',
+  productTextActive: '#FFFF',
+  svgColorActive: '#FFFFFF',
+  svgColor: '#1D1D1D',
+  productBorder: '#1D1D1D',
+  productBorderActive: 'none',
+  prodTitle: '#1D1D1D',
+  contImg: '#DDDDDD'
+
+
+
+
+
+
 };

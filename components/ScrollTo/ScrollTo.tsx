@@ -15,15 +15,21 @@ const Container = styled.div<CustomComponentProps>`
 div{
     display: flex;
     align-items:center ;
-    justify-content:center ;
+    justify-content:center ;  
     width: 60px;
-height: 60px;
-border-radius: 50%;
-background: ${(props:any) => props.theme.jumpArrowbgColor};
-box-shadow: ${(props:any) => props.theme.jumpArrowShadow};
-font-size:25px ;
-color:rgba(16, 93, 207, 1) ;
-/* transform: rotate(-90deg) */
+    height: 60px;
+    border-radius: 50%;
+    background: ${(props:any) => props.theme.jumpArrowbgColor};
+    box-shadow: ${(props:any) => props.theme.jumpArrowShadow};
+    font-size:25px ;
+    color:rgba(16, 93, 207, 1) ;
+
+
+a{
+  display:flex ;
+  justify-content:center ;
+  align-items:center ;
+}
 }
 `
 

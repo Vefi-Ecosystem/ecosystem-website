@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import styled from 'styled-components'
-
 import Cosmic from '../../assets/images/cosmic.png'
 import Microsoft from '../../assets/images/microsoft.png'
 import Miro from '../../assets/images/miro.png'
@@ -11,7 +10,8 @@ import Stanford from '../../assets/images/stanford.png'
 import Ycombi from '../../assets/images/ycombi.png'
 
 const Container = styled.div`
-margin:40px 0 ;
+/* margin:40px 0 ; */
+padding:0 ;
 background: #DDDDDD;
 display:flex ;
 align-items:center ;
@@ -25,9 +25,9 @@ div{
     display:flex ;
 align-items:center ;
 justify-content:center ;
-    /* margin: 0px 20px; */
     min-width:  100px;
     padding: 20px 0;
+    margin: 0 20px ;
 }
 `
 
