@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import styled from 'styled-components'
 import Chan from '../../assets/images/chang.png'
+import Scroll from '../ScrollTo/ScrollTo'
 
 const Container = styled.div`
 padding: 100px 0 0 50px;
@@ -95,6 +96,8 @@ function About4() {
         <Desc>
         To build and deploy innovative, cutting <br/> edge and scalable Blockchain solutions.
         </Desc>
+        <Scroll justifyContent="flex-start" url="#change_section" />
+
       </div>
       <div>
           <Image src={Chan}

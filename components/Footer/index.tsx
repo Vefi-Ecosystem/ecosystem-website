@@ -9,18 +9,29 @@ const Container = styled.footer`
     margin:50px 0;
     gap:15px;
         div.top_footer{
-            color:${(props: any) => props.theme.topFooterTextColor};
-            font-family: Gilroy-semibold;
             display:flex;
             flex-direction:row;
             justify-content:center;
             text-transform:uppercase;
             gap:10px;
             flex-wrap:wrap;
+
+
+            div a{
+                text-decoration:none ;
+                color:${(props: any) => props.theme.topFooterTextColor};
+                font-family: Gilroy-semibold;
+
+
+            }
         }
         div.bottom_footer{
-            font-family:'Gilroy-medium';
-            color:${(props: any) => props.theme.footerTextColor};
+           
+
+            span{
+                font-family:'Gilroy-medium';
+                color:${(props: any) => props.theme.footerTextColor};
+            }
         }
 `
 

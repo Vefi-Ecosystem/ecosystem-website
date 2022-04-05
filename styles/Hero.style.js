@@ -51,6 +51,13 @@ letter-spacing: -0.015em;
 
 color:${(props) => props.theme.headerTextColor};
 
+
+@media screen and (max-width:1200px){
+    font-size: 60px;
+line-height: 30px;
+
+}
+
 @media screen and (max-width: 900px){
     font-size: 35px;
 line-height: 41px;
@@ -72,6 +79,11 @@ background: linear-gradient(160.06deg, #105DCF 41.12%, #6F87DF 50.6%, #6FDFEE 75
 -webkit-text-fill-color: transparent;
 background-clip: text;
 
+@media screen and (max-width:1200px){
+    font-size: 60px;
+line-height: 60px;
+
+}
 
 @media screen and (max-width: 900px){
     font-size: 35px;
@@ -90,15 +102,31 @@ letter-spacing: -0.015em;
 
 color:${(props) => props.theme.regularTextColor};
 
-br{
+.desk{
 display: block;
 
+@media screen and (max-width: 1200px){
+ 
+display: none;
+ }
 @media screen and (max-width: 900px){
  
 display: none;
  }
 }
 
+.tab{
+    @media screen and (max-width: 1200px){
+ 
+display: block;
+  }
+
+  @media screen and (max-width: 900px){
+ 
+ display: none;
+  }
+
+}
 
 @media screen and (max-width: 900px){
  

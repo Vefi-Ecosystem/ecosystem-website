@@ -40,7 +40,7 @@ function Hero() {
         </div>
 
         <div>
-          <p>  Our ecosystem of blockchain-intrinsic products and <br /> services with the sole aim of permeating all areas of the <br /> globe with its influence in the blockchain ecosystem.</p>
+          <p>  Our ecosystem of blockchain-intrinsic products<br className='tab'/> and <br className='desk' /> services with the sole aim of permeating all <br className='tab'/> areas of the <br className='desk'/> globe with its influence in the blockchain ecosystem.</p>
         </div>
         <div className='but-div'>
           <Button>Explore Ecosystem <FiArrowDown className='icon' /></Button>
