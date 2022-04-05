@@ -225,7 +225,6 @@ line-height: 20px;
              padding:10px ;
              margin:0 ;
              width:100% ;
-             background-color:white ;
                 display: flex;
                 align-items:center ;
                 overflow-x: scroll ;
