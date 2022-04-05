@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { FiArrowUp } from 'react-icons/fi'
 
 
 const Container = styled.footer`
@@ -17,13 +18,37 @@ const Container = styled.footer`
             text-transform:uppercase;
             gap:10px;
             flex-wrap:wrap;
+            border-bottom: 1px solid linear-gradient:rgba(128, 147, 255, 0.25), rgba(125, 155, 250, 1), rgba(96, 219, 212, 1), rgba(92, 228, 207, 0.25);
         }
         div.bottom_footer{
+            display:flex;
+            justify-content:center;
             font-family:'Gilroy-medium';
             color:${(props: any) => props.theme.footerTextColor};
         }
+        .scroll-top{
+            display: flex;
+            align-items:center ;
+            justify-content:center ;
+            align-self:center;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: ${(props: any) => props.theme.jumpArrowbgColor};
+            box-shadow: ${(props: any) => props.theme.jumpArrowShadow};
+            font-size:25px ;
+            color:rgba(16, 93, 207, 1) ;
+            /* transform: rotate(-90deg) */
+        }
 `
 
+function ScrollTop(props: any) {
+    return (
+        <a href="#hero" className="scroll-top">
+            <FiArrowUp />
+        </a>
+    )
+}
 
 const Footer = () => {
     return (
@@ -39,6 +64,7 @@ const Footer = () => {
             </div>
             <div className='bottom_footer'>
                 <span>COPYRIGHT 2022 VEFI ECOSYSTEM</span>
+                {/* <ScrollTop /> */}
             </div>
         </Container>
     )
