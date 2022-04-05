@@ -4,11 +4,12 @@ import { CustomContainer } from "../components/Container";
 
 export const Container = styled(CustomContainer)`
 width:100% ;
-margin-top: 180px;
-
+margin-top: 100px;
+padding:40px 0 ;
 display: flex;
 justify-content:space-between ;
 align-items:center ;
+font-family: Gilroy-SemiBold ;
 
 
 

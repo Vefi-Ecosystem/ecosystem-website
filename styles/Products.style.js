@@ -11,24 +11,27 @@ align-items:center ;
     margin:20px 0 ;
     font-size: 62px;
 line-height: 74px;
-
-/* identical to box height, or 119% */
-
 text-transform: capitalize;
-
 color: rgba(29, 29, 29, 1);
+
+
+@media screen and (max-width:900px){
+    font-size: 22px;
+line-height: 20px;
+    }
 }
 
 .tab-block{
     padding:0 100px ;
 
-    @media screeb and (max-width:900px){
+    @media screen and (max-width:900px){
         padding:10px ;
     }
 
     .tab-seg{
         margin: 20px 0;
         display:flex ;
+        align-items:center ;
 
         .tabs{
         display:flex ;
@@ -55,6 +58,9 @@ color: rgba(29, 29, 29, 1);
         }
 
        
+        @media screen and (max-width: 900px){
+            display:none ;
+        }
 
     }
     .tabs.active-tab{
@@ -80,11 +86,23 @@ color: rgba(29, 29, 29, 1);
 }
 
 .tab-content{
+   
+   
     .content{
             display:none ;
             align-items: center;        
             justify-content: space-between;
             padding: 30px 0;
+
+            @media screen and (max-width:900px){
+                display: flex;
+                flex-direction:column ;
+                background:#161616 ;
+                /* margin-bottom:30px ; */
+                min-width:200px ;
+                padding:20px ;
+                margin:10px ;
+            }
             
 
             .content-img{
@@ -92,10 +110,21 @@ color: rgba(29, 29, 29, 1);
                 height :300px;
                 border: 1px solid black;
                 background: ${(props) => props.theme.contImg};
+
+                @media screen and (max-width:900px){
+                width:auto ;
+                height:100px ;
+                background:transparent ;
+            }
             }
 
             .content-text{
                 margin-left:35px ;
+
+                @media screen and (max-width:900px){
+                margin:0 ;
+                padding:10px 0 ;
+            }
                 .product-con{
                  
                     
@@ -118,6 +147,11 @@ color: rgba(29, 29, 29, 1);
                         align-items: center;
                         color:${(props) => props.theme.prodTitle} ;
 
+                        @media screen and (max-width:900px){
+                            font-size: 15px;
+                            line-height: 16px;
+                        }
+
                     }
                     }
                     .prod-desc{
@@ -129,10 +163,25 @@ color: rgba(29, 29, 29, 1);
                         align-items: center;
                         text-align: justify;
                         color:${(props) => props.theme.regularTextColor} ;
+
+                        @media screen and (max-width:1200px){
+                            width:300px;
+                            font-size: 18px;
+                            line-height: 20px;
+                         
+                        }
+                        @media screen and (max-width:900px){
+                            width:auto ;
+                            font-size: 10px;
+                            line-height: 16px;
+                            margin:0 ;
+                        }
                     }
                     .prod-btn{
                         margin-top:30px ;
-
+                @media screen and (max-width:900px){
+                margin:0 ;
+            }
                     
                     button{
                         padding:10px 30px ;
@@ -151,6 +200,15 @@ color: rgba(29, 29, 29, 1);
                             font-size: 25px;  
                             margin-left:10px ;
                         }
+
+                                @media screen and (max-width:900px){
+                                        background:none ;
+                                        font-size: 10px;
+                                        line-height: 16px;
+                                        margin:0 ;
+                                        padding:0 ;
+                                        color: #105DCF;
+                                 }           
                     }
                 }
                 }
@@ -160,6 +218,27 @@ color: rgba(29, 29, 29, 1);
         .content.active-content{
             display:flex ;
         }
+
+
+
+         @media screen and (max-width:900px){
+             padding:10px ;
+             margin:0 ;
+             width:100% ;
+             background-color:white ;
+                display: flex;
+                align-items:center ;
+                overflow-x: scroll ;
+                justify-content:space-between ;
+
+
+                &::-webkit-scrollbar{
+                    display:none ;
+                    appearance: none;
+                }
+       
+            }
 }
+
 
 `
