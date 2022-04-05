@@ -5,7 +5,6 @@ type DivProps= {
  }
 
 export const Nav = styled.div` 
-font-family:Gilror-semibold ;
 position:fixed ;
 top: 0;
 right: 0;
@@ -23,8 +22,7 @@ box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.09);
 
 @media screen and (max-width: 1000px){
     flex-direction:column ;
-    padding:0px ;
-   
+padding:8px ;
 }
 `
 export const Div = styled.div<DivProps>` 
@@ -83,6 +81,12 @@ a{
     text-align: center;
     justify-content:center ;
     letter-spacing: -0.015em;
+
+    a{
+          color: ${(props: any) => props.theme.linkColor};
+          text-decoration:none ;
+
+    }
 
     @media screen and (max-width: 1000px){
 margin:20px 0 ;
@@ -175,6 +179,7 @@ margin-right:40px ;
 
 a{
     color: ${(props: any) => props.theme.linkColor};
+    text-decoration:none ;
 }
 
 @media screen and (max-width: 1000px){

@@ -3,16 +3,19 @@ import { darkTheme, lightTheme } from "../themes";
 import { CustomContainer } from "../components/Container";
 
 export const Container = styled(CustomContainer)`
-margin-top: 70px;
-padding: 90px 0 0 70px;
+width:100% ;
+margin-top: 100px;
+padding:40px 0 ;
 display: flex;
-/* align-items:center ; */
+justify-content:space-between ;
+align-items:center ;
+font-family: Gilroy-SemiBold ;
 
 
 
 @media screen and (max-width: 900px){
     margin-top:70px ;
-padding: 30px 20px ;
+/* padding: 30px 20px ; */
 flex-direction: column;
 align-items: center;
 justify-content:center ;
@@ -21,6 +24,7 @@ justify-content:center ;
 `
 
 export const HeroText = styled.div`
+padding-left:30px ;
 .but-div{
     width: 100%;
     display:flex ;
@@ -34,13 +38,13 @@ justify-content:center ;
 }
 
 @media screen and (max-width: 900px){
- 
+ padding:0 ;
 margin-bottom: 30px;
  }
 
 .welcome{
     font-size: 97px;
-line-height: 114px;
+line-height: 8px;
 display: flex;
 align-items: center;
 letter-spacing: -0.015em;
@@ -58,7 +62,7 @@ justify-content:center ;
 }
 .ecosystem{
     font-size: 97px;
-line-height: 114px;
+    line-height: 90px;
 display: flex;
 align-items: center;
 letter-spacing: -0.015em;
