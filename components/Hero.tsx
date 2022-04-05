@@ -31,7 +31,7 @@ function Hero() {
   },[theme])
 
   return (
-    <Container>
+    <Container id="hero">
       <HeroText>
 
         <div>
