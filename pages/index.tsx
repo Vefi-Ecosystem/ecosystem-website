@@ -10,6 +10,7 @@ import About3 from '../components/About/About3';
 import About4 from '../components/About/About4';
 import Products from '../components/Products/Products';
 import Team from '../components/Team/Team'
+import Footer from '../components/Footer';
 
 
 const Home: NextPage = () => {
@@ -34,7 +35,7 @@ const Home: NextPage = () => {
         <About4/>
         <Products/>
         <Team/>
-
+        <Footer/>
          
 
          

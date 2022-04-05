@@ -18,8 +18,9 @@ export const darkTheme = {
   productBorder: '#B8B8B8',
   productBorderActive: 'none',
   prodTitle: '#FFFFFF',
-  contImg: '#1D1D1D'
-
+  contImg: '#1D1D1D',
+  footerTextColor:'#B8B8B8',
+  topFooterTextColor:"#FFFFFF"
 };
 
 export const lightTheme = {
@@ -41,11 +42,7 @@ export const lightTheme = {
   productBorder: '#1D1D1D',
   productBorderActive: 'none',
   prodTitle: '#1D1D1D',
-  contImg: '#DDDDDD'
-
-
-
-
-
-
+  contImg: '#DDDDDD',
+  footerTextColor:'#1D1D1D',
+  topFooterTextColor:"#1D1D1D"
 };
