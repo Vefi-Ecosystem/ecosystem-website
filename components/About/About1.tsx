@@ -22,6 +22,7 @@ const Title = styled.div`
 font-size: 46px;
 line-height: 54px;
 text-transform: capitalize;
+font-family:Gilroy-Bold;
 
 color: ${(props: any) => props.theme.headerTextColor};
 
@@ -36,7 +37,7 @@ margin-top: 30px;
 font-size: 27px;
 line-height: 32px;
 /* or 119% */
-
+font-family:'Gilroy-Medium';
 display: flex;
 align-items: center;
 
@@ -59,10 +60,9 @@ line-height: 20px;
 function DescSec() {
   return (
     <>
-      <Container>
+      <Container id="about1">
         <div>
-          <Title>We are building one of <br />
-            the largest Blockchain  <br /> Infrastructure and Solution <br /> company</Title>
+          <Title>We are building one of the  <br /> largest Blockchain  <br /> Infrastructure and Solution <br /> company</Title>
           <Desc>
             Our Mission is to Improve the freedom of money <br /> globally through the integration of institutions, <br /> people, groups and businesses into the <br />Blockchain economy.
           </Desc>
