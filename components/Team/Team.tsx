@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import James from '../assets/images/james.png'
-import Kingsley from '../assets/images/kingsley.png'
+import James from '../../assets/images/james.png'
+import Kingsley from '../../assets/images/kingsley.png'
 
 import {
 Container
