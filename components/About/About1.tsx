@@ -62,7 +62,7 @@ function DescSec() {
     <>
       <Container id="about1">
         <div>
-          <Title>We are building one of the  <br /> largest Blockchain  <br /> Infrastructure and Solution <br /> company</Title>
+          <Title>We are building one of the  <br /> largest Blockchain Infrastructure <br /> and Solution company</Title>
           <Desc>
             Our Mission is to Improve the freedom of money <br /> globally through the integration of institutions, <br /> people, groups and businesses into the <br />Blockchain economy.
           </Desc>
@@ -75,7 +75,7 @@ function DescSec() {
           />
         </div>
       </Container>
-      <Scroll url="#address" />
+      <Scroll url="#about2" />
     </>
   )
 }
