@@ -20,7 +20,15 @@ export const darkTheme = {
   prodTitle: '#FFFFFF',
   contImg: '#1D1D1D',
   footerTextColor:'#B8B8B8',
-  topFooterTextColor:"#FFFFFF"
+  topFooterTextColor:"#FFFFFF",  
+  teamMemberName:'#B8B8B8',
+  teamMemberTitle:'#8F8F8F',
+  comingSoon:"#B8B8B8",
+  productTitle:'#ffffff',
+  teamHeading:'#ffffff',
+  teamBody:'#8F8F8F',
+  blockTextHead:'#ffffff',
+  blockTextBody:'#ffffff',
 };
 
 export const lightTheme = {
@@ -44,5 +52,13 @@ export const lightTheme = {
   prodTitle: '#1D1D1D',
   contImg: '#DDDDDD',
   footerTextColor:'#1D1D1D',
-  topFooterTextColor:"#1D1D1D"
+  topFooterTextColor:"#1D1D1D",
+  teamMemberName:'#1D1D1D',
+  teamMemberTitle:'#333333',
+  comingSoon:"#1D1D1D",
+  productTitle:'rgba(29, 29, 29, 1)',
+  teamHeading:'#1D1D1D',
+  teamBody:'#333333',
+  blockTextHead:'#ffffff',
+  blockTextBody:'#ffffff',
 };
