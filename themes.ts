@@ -9,6 +9,8 @@ export const darkTheme = {
   linkColor:"#DDDDDD",
   jumpArrowbgColor:"#1D1D1D",
   jumpArrowShadow:'0px 9px 12px rgba(0, 0, 0, 0.26)',
+  footerTextColor:'#B8B8B8',
+  topFooterTextColor:"#FFFFFF"
 };
 
 export const lightTheme = {
@@ -22,4 +24,6 @@ export const lightTheme = {
   linkColor:"#1D1D1D",
   jumpArrowbgColor:"#F2F2F2",
   jumpArrowShadow:'0px 9px 12px rgba(0, 0, 0, 0.16)',
+  footerTextColor:'#1D1D1D',
+  topFooterTextColor:"#1D1D1D"
 };
