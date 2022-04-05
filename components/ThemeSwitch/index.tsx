@@ -66,6 +66,7 @@ const ThemeSwitch = (props: any) => {
 
   const { theme, themeSwitchHandler } = useContext<any | null>(GlobalContext);
 
+
   const handleCheck = (e: any) => {
     if (e.target.checked) {
       setIconColor(lightTheme.themeSwitchBtn);
@@ -76,6 +77,11 @@ const ThemeSwitch = (props: any) => {
 
   useEffect(() => {
     window.localStorage.setItem('theme', theme);
+    if(theme === 'light'){
+      setIconColor(darkTheme.themeSwitchBtn);
+    } else {
+      setIconColor(lightTheme.themeSwitchBtn);
+    }
   }, [theme]);
 
   return (
