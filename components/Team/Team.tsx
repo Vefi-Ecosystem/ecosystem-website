@@ -1,14 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
-import James from '../assets/images/james.png'
-import Kingsley from '../assets/images/kingsley.png'
+import James from '../../assets/images/james.png'
+import Kingsley from '../../assets/images/kingsley.png'
 
 import {
 Container
 }
-from '../styles/Mind.style'
+from '../../styles/Team.style'
 
-function Mind() {
+function Team() {
   return (
     <Container>
         <div className='mother-con'>
@@ -83,4 +83,4 @@ function Mind() {
   )
 }
 
-export default Mind
+export default Team

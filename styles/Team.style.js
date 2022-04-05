@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div` 
 margin-top:70px ;
-padding:30px 50px ;
+padding:30px 0  0 50px;
 display: flex;
 align-items: center;
 justify-content:space-between ;
@@ -89,13 +89,10 @@ color: #1D1D1D;
             .post{
                 font-size: 16px;
 line-height: 14px;
-/* identical to box height, or 88% */
-
 display: flex;
 align-items: center;
 text-align: center;
 text-transform: capitalize;
-
 color: #333333;
             }
         }
@@ -108,6 +105,7 @@ color: #333333;
         background: #DDDDDD;
         padding:80px 40px ;
         width:600px ;
+        margin: 0 40px;
        
 
         @media screen and (max-width:900px){

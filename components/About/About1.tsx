@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import styled from 'styled-components'
-import Chan from '../assets/images/chang.png'
+import Ether from '../../assets/images/ethe.png'
+import Scroll from '../ScrollTo/ScrollTo'
 
 const Container = styled.div`
 padding: 100px 0 0 50px;
@@ -55,27 +56,28 @@ line-height: 20px;
 
 `
 
-function Chang() {
+function DescSec() {
   return (
-    <Container id="change_section">
-      <div>
-      <Title>
-          Changing the world’s future through <br/> Blockchain
-        </Title>
-        <Desc>
-        To build and deploy innovative, cutting <br/> edge and scalable Blockchain solutions.
-        </Desc>
-      </div>
-      <div>
-          <Image src={Chan}
-          alt='Explanatory image'
-          height= {546}
-          width = {550}
+    <>
+      <Container>
+        <div>
+          <Title>We are building one of <br />
+            the largest Blockchain  <br /> Infrastructure and Solution <br /> company</Title>
+          <Desc>
+            Our Mission is to Improve the freedom of money <br /> globally through the integration of institutions, <br /> people, groups and businesses into the <br />Blockchain economy.
+          </Desc>
+        </div>
+        <div>
+          <Image src={Ether}
+            alt='Explanatory image'
+            height={546}
+            width={550}
           />
-      </div>
-
-    </Container>
+        </div>
+      </Container>
+      <Scroll url="#address" />
+    </>
   )
 }
 
-export default Chang
+export default DescSec

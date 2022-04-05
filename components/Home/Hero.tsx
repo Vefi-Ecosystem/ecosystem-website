@@ -4,13 +4,13 @@ import {
   ImageCon,
   Container,
   Button,
-} from '../styles/Hero.style'
+} from '../../styles/Hero.style'
 import Image from 'next/image'
 import { FiArrowDown } from 'react-icons/fi'
-import darkHero_bg from '../assets/images/dark_hero_bg.png'
-import lighthero_bg from '../assets/images/light_hero_bg.png'
+import darkHero_bg from '../../assets/images/dark_hero_bg.png'
+import lighthero_bg from '../../assets/images/light_hero_bg.png'
 
-import { GlobalContext } from '../context/globalContext';
+import { GlobalContext } from '../../context/globalContext';
 
 
 function Hero() {
