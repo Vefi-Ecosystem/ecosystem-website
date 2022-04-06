@@ -79,7 +79,7 @@ display:none ;
 
 @media screen and (max-width:900px){
   display: flex;
-  font-size: 28px;
+  font-size: 25px;
   margin-bottom: 20px;
   font-family:Gilroy-Medium;
 }
