@@ -38,7 +38,7 @@ function Scroll(props:any & CustomComponentProps) {
     <Container justifyContent={props.justifyContent}>
     <div>
         <a href={props.url}>
-          <FiArrowDown/>
+          <FiArrowDown color='#105DCF'/>
         </a>
     </div>
 
