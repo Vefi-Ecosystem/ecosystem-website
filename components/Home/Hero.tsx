@@ -35,12 +35,12 @@ function Hero() {
       <HeroText>
 
         <div className='heading'>
-          <h1 className='welcome'>Welcome to the </h1>
-          <h1 className='ecosystem'>Ecosystem</h1>
+          <h1 className='welcome'>Welcome to the <span className="ecosystem">Ecosystem</span></h1>
+          {/* <h1 className='ecosystem'></h1> */}
         </div>
 
         <div>
-          <p>  Our ecosystem of blockchain-intrinsic products and <br /> services with the sole aim of permeating all areas of the <br /> globe with its influence in the blockchain ecosystem.</p>
+          <p className="brief"> Our ecosystem of blockchain-intrinsic products and services with the sole aim of permeating all areas of the  globe with its influence in the blockchain ecosystem.</p>
         </div>
         <div className='but-div'>
           <a href="#about1"><Button>Explore Ecosystem <FiArrowDown className='icon' /></Button></a>
