@@ -9,7 +9,15 @@ display:flex ;
 align-items: center;
 justify-content: space-between;
 
-
+@media screen and (max-width:900px){ 
+  .border{
+    width:100%;
+    margin-top:15px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(90deg,#105DCF45, #105DCF, #105DCF45) 1 stretch;
+    border-image-slice: 1;
+  }
+}
 
 .title-desc{
 
@@ -47,14 +55,14 @@ const Title = styled.div`
 font-size: 46px;
 line-height: 54px;
 text-transform: capitalize;
-
-color: ${(props: any) => props.theme.headerTextColor};
+font-family:Gilroy-Bold;
+color: ${(props: any) => props.theme.blockTextHead};
 
 @media screen and (max-width:900px){
-  margin-top:15px ;
-  font-size: 20px;
-line-height: 23px;
-text-align:center ;
+  margin-top:20px ;
+  font-size: 25px;
+  line-height: 23px;
+  text-align:center ;
 }
 `
 const Desc = styled.div`
@@ -62,11 +70,11 @@ margin-top: 30px;
 font-size: 27px;
 line-height: 32px;
 /* or 119% */
-
+font-family:'Gilroy-Medium';
 display: flex;
 align-items: center;
 
-color: ${(props: any) => props.theme.regularTextColor};
+color: ${(props: any) => props.theme.blockTextBody};
 
 br{
 
@@ -76,10 +84,10 @@ display:none ;
 }
 
 @media screen and (max-width:900px){
-  margin-top:10px ;
+  margin-bottom:60px ;
   font-size: 15px;
-line-height: 20px;
-text-align:center ;
+  line-height: 20px;
+  text-align:center ;
 
 }
 
@@ -87,21 +95,22 @@ text-align:center ;
 
 function About4() {
   return (
-    <Container id='change_sec'>
+    <Container id='change_section'>
+      <div className="border"></div>
       <div className='title-desc'>
-      <Title>
-          Changing the world’s future <br/>  through Blockchain
+        <Title>
+          Changing the world’s future <br />  through Blockchain
         </Title>
         <Desc>
-        To build and deploy innovative, cutting <br/> edge and scalable Blockchain solutions.
+          To build and deploy innovative, cutting <br /> edge and scalable Blockchain solutions.
         </Desc>
       </div>
       <div>
-          <Image src={Chan}
+        <Image src={Chan}
           alt='Explanatory image'
-          height= {546}
-          width = {550}
-          />
+          height={546}
+          width={550}
+        />
       </div>
 
     </Container>
