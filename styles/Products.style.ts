@@ -5,23 +5,23 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  @media screen and (max-width:900px){ 
-    .border{
-      width:100%;
-      margin-top:15px;
+  @media screen and (max-width: 900px) {
+    .border {
+      width: 100%;
+      margin-top: 15px;
       border-bottom: 1px solid;
-      border-image: linear-gradient(90deg,#105DCF45, #105DCF, #105DCF45) 1 stretch;
+      border-image: linear-gradient(90deg, #105dcf45, #105dcf, #105dcf45) 1 stretch;
       border-image-slice: 1;
     }
   }
-  
+
   .prod {
     margin: 0;
     font-size: 62px;
     line-height: 74px;
     text-transform: capitalize;
     color: ${(props) => props.theme.productTitle};
-    font-family:Gilroy-Bold;
+    font-family: Gilroy-Bold;
     text-align: center;
     @media screen and (max-width: 900px) {
       font-size: 22px;
@@ -30,7 +30,7 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 900px) {
-    .prod{
+    .prod {
       font-size: 25px;
     }
   }
@@ -77,7 +77,7 @@ export const Container = styled.div`
           color: ${(props) => props.theme.productText};
           margin: 0;
           padding: 0;
-          font-family:Gilroy-Medium;
+          font-family: Gilroy-Medium;
         }
 
         @media screen and (max-width: 900px) {
@@ -161,11 +161,11 @@ export const Container = styled.div`
               line-height: 16px;
               display: flex;
               align-items: center;
-              font-family:Gilroy-Medium;
+              font-family: Gilroy-Medium;
               color: ${(props) => props.theme.prodTitle};
 
               @media screen and (max-width: 900px) {
-                color:#fff;
+                color: #fff;
                 font-size: 15px;
                 line-height: 16px;
               }
@@ -179,7 +179,7 @@ export const Container = styled.div`
             display: flex;
             align-items: center;
             text-align: justify;
-            font-family:Gilroy-Medium;
+            font-family: Gilroy-Medium;
             color: ${(props) => props.theme.productDescription};
 
             @media screen and (max-width: 1200px) {
@@ -188,7 +188,7 @@ export const Container = styled.div`
               line-height: 20px;
             }
             @media screen and (max-width: 900px) {
-              color:#fff;
+              color: #fff;
               width: auto;
               font-size: 10px;
               line-height: 16px;
@@ -213,8 +213,8 @@ export const Container = styled.div`
               align-items: center;
               color: #ffffff;
               cursor: pointer;
-              font-family:Gilroy-ExtraBold;
-              
+              font-family: Gilroy-ExtraBold;
+
               .icon {
                 font-size: 25px;
                 margin-left: 10px;

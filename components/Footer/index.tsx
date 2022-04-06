@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-import { FiArrowUp } from 'react-icons/fi'
-
+import { FiArrowUp } from 'react-icons/fi';
 
 const Container = styled.footer`
     max-width:100%;
@@ -46,34 +45,48 @@ const Container = styled.footer`
             color:rgba(16, 93, 207, 1) ;
             /* transform: rotate(-90deg) */
         }
-`
+`;
 
 function ScrollTop(props: any) {
-    return (
-        <a href="#hero" className="scroll-top">
-            <FiArrowUp />
-        </a>
-    )
+  return (
+    <a href="#hero" className="scroll-top">
+      <FiArrowUp />
+    </a>
+  );
 }
 
 const Footer = () => {
-    return (
-        <Container id="footer">
-            <div className='top_footer'>
-                <div><a href="#">LinkedIn</a></div>
-                <div><a href="#">Instagram</a></div>
-                <div><a href="#">Facebook</a></div>
-                <div><a href="#">Twitter</a></div>
-                <div><a href="#">Telegram</a></div>
-                <div><a href="#">Privacy & Policy</a></div>
-                <div><a href="#">Cookies Policy</a></div>
-            </div>
-            <div className='bottom_footer'>
-                <span>COPYRIGHT 2022 VEFI ECOSYSTEM</span>
-                {/* <ScrollTop /> */}
-            </div>
-        </Container>
-    )
-}
+  return (
+    <Container id="footer">
+      <div className="top_footer">
+        <div>
+          <a href="#">LinkedIn</a>
+        </div>
+        <div>
+          <a href="#">Instagram</a>
+        </div>
+        <div>
+          <a href="#">Facebook</a>
+        </div>
+        <div>
+          <a href="#">Twitter</a>
+        </div>
+        <div>
+          <a href="#">Telegram</a>
+        </div>
+        <div>
+          <a href="#">Privacy & Policy</a>
+        </div>
+        <div>
+          <a href="#">Cookies Policy</a>
+        </div>
+      </div>
+      <div className="bottom_footer">
+        <span>COPYRIGHT 2022 VEFI ECOSYSTEM</span>
+        {/* <ScrollTop /> */}
+      </div>
+    </Container>
+  );
+};
 
 export default Footer;

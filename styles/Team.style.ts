@@ -12,12 +12,10 @@ export const Container = styled.div`
     padding: 0 20px;
   }
 
-  
-
   .mother-con {
     display: flex;
     border-right: 1.5px solid;
-    border-image: linear-gradient(45deg,#105DCF45, #105DCF, #60DBD4,#105DCF45);
+    border-image: linear-gradient(45deg, #105dcf45, #105dcf, #60dbd4, #105dcf45);
     border-image-slice: 3;
 
     @media screen and (max-width: 900px) {
@@ -41,7 +39,7 @@ export const Container = styled.div`
           text-align: center;
           text-transform: capitalize;
           margin-bottom: 5px;
-          font-family:Gilroy-Bold;
+          font-family: Gilroy-Bold;
           color: ${(props) => props.theme.themeMemberName} !important;
         }
         .post {
@@ -51,7 +49,7 @@ export const Container = styled.div`
           align-items: center;
           text-align: center;
           text-transform: capitalize;
-          font-family:Gilroy-Medium;
+          font-family: Gilroy-Medium;
           color: ${(props) => props.theme.teamMemberTitle};
         }
       }
@@ -78,7 +76,7 @@ export const Container = styled.div`
           align-items: center;
           text-align: center;
           text-transform: capitalize;
-          font-family:Gilroy-Bold;
+          font-family: Gilroy-Bold;
           color: ${(props) => props.theme.themeMemberName} !important;
         }
         .post {
@@ -88,7 +86,7 @@ export const Container = styled.div`
           align-items: center;
           text-align: center;
           text-transform: capitalize;
-          font-family:Gilroy-Medium;
+          font-family: Gilroy-Medium;
           color: ${(props) => props.theme.teamMemberTitle};
         }
       }
@@ -114,8 +112,8 @@ export const Container = styled.div`
       display: flex;
       align-items: center;
       text-transform: capitalize;
-      color:${(props) => props.theme.teamHeading};
-      font-family:Gilroy-ExtraBold;
+      color: ${(props) => props.theme.teamHeading};
+      font-family: Gilroy-ExtraBold;
       br {
         @media screen and (max-width: 900px) {
           display: none;
@@ -133,8 +131,8 @@ export const Container = styled.div`
       font-size: 27px;
       line-height: 32px;
       display: flex;
-      font-family:Gilroy-Medium;
-      color:${(props) => props.theme.teamBody};
+      font-family: Gilroy-Medium;
+      color: ${(props) => props.theme.teamBody};
       align-items: center;
       color: #333333;
       @media screen and (max-width: 900px) {
