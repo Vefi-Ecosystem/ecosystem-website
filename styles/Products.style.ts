@@ -150,6 +150,11 @@ export const Container = styled.div`
               .svg-active {
                 fill: ${(props) => props.theme.svgColor};
               }
+              @media screen and (max-width: 900px) {
+                .svg-active {
+                  fill: #fff;
+                }
+              }
             }
             .prod-title {
               font-size: 50px;
@@ -160,6 +165,7 @@ export const Container = styled.div`
               color: ${(props) => props.theme.prodTitle};
 
               @media screen and (max-width: 900px) {
+                color:#fff;
                 font-size: 15px;
                 line-height: 16px;
               }
@@ -182,6 +188,7 @@ export const Container = styled.div`
               line-height: 20px;
             }
             @media screen and (max-width: 900px) {
+              color:#fff;
               width: auto;
               font-size: 10px;
               line-height: 16px;
