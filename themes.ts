@@ -7,8 +7,8 @@ export const darkTheme = {
   themeSwitchBtn: '#1D1D1D',
   themeSwitchShadow: 'inset 0px 4px 7px 4px rgba(0, 0, 0, 0.8)',
   themeSwitchBackground: '#161616',
-  jumpArrowbgColor:"#1D1D1D",
-  jumpArrowShadow:'0px 9px 12px rgba(0, 0, 0, 0.26)',
+  jumpArrowbgColor: '#1D1D1D',
+  jumpArrowShadow: '0px 9px 12px rgba(0, 0, 0, 0.26)',
   productBackground: 'transparent',
   productBackgroundActive: '#B8B8B8',
   productText: '#B8B8B8',
@@ -20,6 +20,7 @@ export const darkTheme = {
   prodTitle: '#FFFFFF',
   productDescription:'#ffffff',
   contImg: '#1D1D1D',
+<<<<<<< HEAD
   footerTextColor:'#B8B8B8',
   topFooterTextColor:"#FFFFFF",  
   teamMemberName:'#B8B8B8',
@@ -30,6 +31,10 @@ export const darkTheme = {
   teamBody:'#8F8F8F',
   blockTextHead:'#ffffff',
   blockTextBody:'#ffffff',
+=======
+  footerTextColor: '#B8B8B8',
+  topFooterTextColor: '#FFFFFF'
+>>>>>>> 57e5d8da9067a8b2d574bcaf0ff4f91efd0ad49f
 };
 
 export const lightTheme = {
@@ -40,9 +45,9 @@ export const lightTheme = {
   themeSwitchBtn: '#EEEEEE',
   themeSwitchShadow: 'inset 0px 4px 7px 4px #DDDDDD',
   themeSwitchBackground: '#EEEEEE',
-  linkColor:"#1D1D1D",
-  jumpArrowbgColor:"#F2F2F2",
-  jumpArrowShadow:'0px 9px 12px rgba(0, 0, 0, 0.16)',
+  linkColor: '#1D1D1D',
+  jumpArrowbgColor: '#F2F2F2',
+  jumpArrowShadow: '0px 9px 12px rgba(0, 0, 0, 0.16)',
   productBackground: 'transparent',
   productBackgroundActive: '#105DCF',
   productTextActive: '#FFFF',
@@ -53,6 +58,7 @@ export const lightTheme = {
   prodTitle: '#1D1D1D',
   productDescription:'#1D1D1D',
   contImg: '#DDDDDD',
+<<<<<<< HEAD
   footerTextColor:'#1D1D1D',
   topFooterTextColor:"#1D1D1D",
   teamMemberName:'#1D1D1D',
@@ -63,4 +69,8 @@ export const lightTheme = {
   teamBody:'#333333',
   blockTextHead:'#1D1D1D',
   blockTextBody:'#333333',
+=======
+  footerTextColor: '#1D1D1D',
+  topFooterTextColor: '#1D1D1D'
+>>>>>>> 57e5d8da9067a8b2d574bcaf0ff4f91efd0ad49f
 };
