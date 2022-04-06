@@ -26,22 +26,3 @@ p {
   padding: 0;
 }
 
-@font-face {
-  font-family: Gilroy-medium;
-  src: url(/fonts/Gilroy/Gilroy-Medium.ttf);
-}
-
-@font-face {
-  font-family: Gilroy-bold;
-  src: url(/fonts/Gilroy/Gilroy-Bold.ttf);
-}
-
-@font-face {
-  font-family: Gilroy-semibold;
-  src: url(/fonts/Gilroy/Gilroy-SemiBold.ttf);
-}
-
-@font-face {
-  font-family: Gilroy-extra;
-  src: url(/fonts/Gilroy/Gilroy-ExtraBold.ttf);
-}
