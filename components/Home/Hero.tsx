@@ -34,8 +34,8 @@ function Hero() {
     <Container id="hero">
       <HeroText>
 
-        <div>
-          <h1 className='welcome'>Welcome to the</h1>
+        <div className='heading'>
+          <h1 className='welcome'>Welcome to the </h1>
           <h1 className='ecosystem'>Ecosystem</h1>
         </div>
 
@@ -43,8 +43,7 @@ function Hero() {
           <p>  Our ecosystem of blockchain-intrinsic products and <br /> services with the sole aim of permeating all areas of the <br /> globe with its influence in the blockchain ecosystem.</p>
         </div>
         <div className='but-div'>
-          <Button>Explore Ecosystem <FiArrowDown className='icon' /></Button>
-
+          <a href="#about1"><Button>Explore Ecosystem <FiArrowDown className='icon' /></Button></a>
         </div>
 
 
