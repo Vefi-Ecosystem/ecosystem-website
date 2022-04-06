@@ -3,11 +3,18 @@ import {
     Container
 } from '../../styles/Products.style'
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi'
-import { lightTheme, darkTheme } from '../../themes'
+import styled from 'styled-components';
 
-interface Props {
-    index: number
-}
+
+const Text = styled.h3`
+    font-family: Gilroy-semibold;
+    font-size:3rem;
+    text-align:center;
+    color: #1D1D1D;
+    color:${(props: any) => props.theme.comingSoon};
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+`
+
 function Tabs() {
     const [toggle, setToggle] = useState(1);
     const toggleTab = (index: React.SetStateAction<number>) => {
@@ -100,7 +107,7 @@ function Tabs() {
                 </div>
             </div>
             <div className="tab-content">
-               
+
                 <div
                     className={toggle === 1 ? ' content active-content' : 'content'}
                 >
@@ -173,47 +180,25 @@ function Tabs() {
                 <div
                     className={toggle === 3 ? ' content active-content' : 'content'}
                 >
-                    <div className='content-img'>
-
-                    </div>
-                    <div className='content-text'>
-                        <div className='product-con'>
-                            <div className="prod-log-con">
-                                <div className='prod-log'>logs</div>
-                                <div className='prod-title'>
-                                    Wallet
-                                </div>
-
-                            </div>
-                            <div className="prod-desc">
-                                3 Swap is a newly designed Decentralized
-                                exchange that makes decentralized trading
-                                fast with low transaction fees and traffic...
-                            </div>
-                            <div className="prod-btn">
-                                <button>
-                                    More details <HiOutlineArrowNarrowRight className='icon' />
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                    <Text>Wallet Coming Soon</Text>
                 </div>
                 <div
                     className={toggle === 4 ? ' content active-content' : 'content'}
-                >lorem4</div>
+                ><Text>Coming Soon</Text></div>
                 <div
                     className={toggle === 5 ? ' content active-content' : 'content'}
-                >lorem5</div>
+                ><Text>Coming Soon</Text></div>
                 <div
                     className={toggle === 6 ? ' content active-content' : 'content'}
-                >lorem6</div>
+                ><Text>Coming Soon</Text></div>
                 <div
                     className={toggle === 7 ? ' content active-content' : 'content'}
-                >lorem7</div>
+                ><Text>Coming Soon</Text></div>
                 <div
                     className={toggle === 8 ? ' content active-content' : 'content'}
-                >lorem8</div>
+                ><Text>Coming Soon</Text></div>
             </div>
+            <div className="border"></div>
         </Container>
     )
 }
