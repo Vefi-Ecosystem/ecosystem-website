@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import Revo from '../../assets/images/revo.png'
 import Scroll from '../ScrollTo/ScrollTo'
@@ -21,15 +21,15 @@ padding:20px ;
 `
 const Title = styled.div`
 font-size: 46px;
-line-height: 54px;
 text-transform: capitalize;
+font-family:Gilroy-Bold;
 
 color: ${(props: any) => props.theme.headerTextColor};
 
 @media screen and (max-width:900px){
   margin:15px 0 ;
-  font-size: 20px;
-line-height: 23px;
+  font-size: 25px;
+  line-height: 23px;
 }
 `
 const Desc = styled.div`
@@ -37,7 +37,7 @@ margin-top: 30px;
 font-size: 27px;
 line-height: 32px;
 /* or 119% */
-
+font-family:'Gilroy-Medium';
 display: flex;
 align-items: center;
 
@@ -65,7 +65,6 @@ display:none ;
 margin-top: 30px;
 font-size: 27px;
 line-height: 32px;
-
 align-items: center;
 
 color: ${(props: any) => props.theme.regularTextColor};
@@ -80,35 +79,41 @@ display:none ;
 
 @media screen and (max-width:900px){
   display: flex;
-font-size: 15px;
-line-height: 20px;
-margin-bottom: 20px;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-family:Gilroy-Medium;
 }
-
 
 `
 
 function About3() {
+  const [flexSetting, setFlexSetting] = useState('flex-start');
+
+  useEffect(() => {
+    if (window.innerWidth < 900) { setFlexSetting('center') }
+    else { setFlexSetting('flex-start') }
+  }, [window.innerWidth])
+
   return (
-    <Container id='change_section'>
+    <Container>
       <div>
-      <Title>revolutionizing Innovation <br/> 
-          in the Blockchain Technology <br/> Globally</Title>
+        <Title>revolutionizing Innovation <br />
+          in the Blockchain Technology <br /> Globally</Title>
         <Desc>
-        Our Vision is to be the global leader for <br/> institutional and mass adoption by providing <br/> blockchain infrastructure and solutions.        </Desc>
-        
-        <Scroll justifyContent="flex-start" url="#change_section" />
+          Our Vision is to be the global leader for <br /> institutional and mass adoption by providing <br /> blockchain infrastructure and solutions.        </Desc>
+
+        <Scroll justifyContent={flexSetting} url="#change_section" />
       </div>
       <div className='img-con'>
-          <Image src={Revo}
-             alt='Explanatory image'
-          // height= {546}
-          // width = {480}
-          />
+        <Image src={Revo}
+          alt='Explanatory image'
+        // height= {546}
+        // width = {480}
+        />
       </div>
       <Desc1>
-        Our Vision is to be the global leader for <br/> institutional and mass adoption by providing <br/> blockchain infrastructure and solutions.        
-        </Desc1>
+        Our Vision is to be the global leader for <br /> institutional and mass adoption by providing <br /> blockchain infrastructure and solutions.
+      </Desc1>
 
     </Container>
   )
