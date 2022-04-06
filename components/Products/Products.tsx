@@ -18,7 +18,7 @@ function Tabs() {
     setToggle(index);
   };
   return (
-    <Container>
+    <Container id="products">
       <div className="prod">Get familiar with our Products</div>
       <div className="tab-block">
         <div className="tab-seg">
