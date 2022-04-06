@@ -15,10 +15,13 @@ export const GlobalStyle = createGlobalStyle`
     padding:0;
     background-color:${(props: any) => props.theme.backgroundColor};
   }
-  @media screen and (max-width: 768px) {
+  h1{
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+  }
+  @media screen and (max-width:1024px){
     h1{
-      margin-block-start: 0.1em;
-      margin-block-end: 0.1em;
+      font-size: 80px;
     }
   }
 

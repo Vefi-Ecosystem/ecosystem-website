@@ -20,7 +20,6 @@ export const darkTheme = {
   prodTitle: '#FFFFFF',
   productDescription:'#ffffff',
   contImg: '#1D1D1D',
-<<<<<<< HEAD
   footerTextColor:'#B8B8B8',
   topFooterTextColor:"#FFFFFF",  
   teamMemberName:'#B8B8B8',
@@ -31,10 +30,6 @@ export const darkTheme = {
   teamBody:'#8F8F8F',
   blockTextHead:'#ffffff',
   blockTextBody:'#ffffff',
-=======
-  footerTextColor: '#B8B8B8',
-  topFooterTextColor: '#FFFFFF'
->>>>>>> 57e5d8da9067a8b2d574bcaf0ff4f91efd0ad49f
 };
 
 export const lightTheme = {
@@ -58,7 +53,6 @@ export const lightTheme = {
   prodTitle: '#1D1D1D',
   productDescription:'#1D1D1D',
   contImg: '#DDDDDD',
-<<<<<<< HEAD
   footerTextColor:'#1D1D1D',
   topFooterTextColor:"#1D1D1D",
   teamMemberName:'#1D1D1D',
@@ -69,8 +63,4 @@ export const lightTheme = {
   teamBody:'#333333',
   blockTextHead:'#1D1D1D',
   blockTextBody:'#333333',
-=======
-  footerTextColor: '#1D1D1D',
-  topFooterTextColor: '#1D1D1D'
->>>>>>> 57e5d8da9067a8b2d574bcaf0ff4f91efd0ad49f
 };
