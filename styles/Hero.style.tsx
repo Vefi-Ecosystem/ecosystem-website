@@ -109,6 +109,8 @@ display: block;
  
 display: none;
  }
+
+
 @media screen and (max-width: 900px){
  
 display: none;
@@ -116,6 +118,7 @@ display: none;
 }
 
 .tab{
+    
     @media screen and (max-width: 1200px){
  
 display: block;
