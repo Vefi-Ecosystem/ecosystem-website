@@ -63,13 +63,13 @@ const Footer = () => {
           <a href="#">LinkedIn</a>
         </div>
         <div>
-          <a href="#">Instagram</a>
+          <a href="https://instagram.com/vefi.official">Instagram</a>
         </div>
         <div>
-          <a href="#">Facebook</a>
+          <a href="https://facebook.com/vefi.official">Facebook</a>
         </div>
         <div>
-          <a href="#">Twitter</a>
+          <a href="https://twitter.com/vefi_official">Twitter</a>
         </div>
         <div>
           <a href="#">Telegram</a>
