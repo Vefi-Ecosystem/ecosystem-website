@@ -18,17 +18,14 @@ const Home: NextPage = () => {
     <Layout>
       <div >
         <Head>
-          <title>Home Page  - Vefi ecosystem</title>
+          <title>Home Page  - VeFi Ecosystem</title>
           <meta name="description" content="Vefi ecosystem" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <NavBar/>
-        
-        
-
         <main >
         <Hero/>
-        <Partners/>
+        {/* <Partners/> */}
         <About1/>
         <About2/>
         <About3/>
@@ -36,10 +33,6 @@ const Home: NextPage = () => {
         <Products/>
         <Team/>
         <Footer/>
-         
-
-         
-          
         </main>
 
        
