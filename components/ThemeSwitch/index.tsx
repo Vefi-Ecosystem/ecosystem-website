@@ -9,7 +9,7 @@ const ThemeSwitcher = styled.div`
     --gap: 5px;
     --size: 23px;
     height: 32px;
-    width: 50px;
+        width: 50px;
     padding: 0 7px;
     display: flex;
     align-items: center;
