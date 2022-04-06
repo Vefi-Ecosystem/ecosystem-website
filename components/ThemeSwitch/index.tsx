@@ -9,7 +9,7 @@ const ThemeSwitcher = styled.div`
     --gap: 5px;
     --size: 23px;
     height: 32px;
-        width: 50px;
+    width: 50px;
     padding: 0 7px;
     display: flex;
     align-items: center;
@@ -66,7 +66,6 @@ const ThemeSwitch = (props: any) => {
 
   const { theme, themeSwitchHandler } = useContext<any | null>(GlobalContext);
 
-
   const handleCheck = (e: any) => {
     if (e.target.checked) {
       setIconColor(lightTheme.themeSwitchBtn);
@@ -77,7 +76,7 @@ const ThemeSwitch = (props: any) => {
 
   useEffect(() => {
     window.localStorage.setItem('theme', theme);
-    if(theme === 'light'){
+    if (theme === 'light') {
       setIconColor(darkTheme.themeSwitchBtn);
     } else {
       setIconColor(lightTheme.themeSwitchBtn);

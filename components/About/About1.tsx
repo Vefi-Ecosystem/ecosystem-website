@@ -1,83 +1,78 @@
-import Image from 'next/image'
-import React from 'react'
-import styled from 'styled-components'
-import Ether from '../../assets/images/ethe.png'
-import Scroll from '../ScrollTo/ScrollTo'
+import Image from 'next/image';
+import React from 'react';
+import styled from 'styled-components';
+import Ether from '../../assets/images/ethe.png';
+import Scroll from '../ScrollTo/ScrollTo';
 
 const Container = styled.div`
-padding: 100px 0 0 50px;
-display:flex ;
-align-items: center;
-justify-content: space-between;
+  padding: 100px 0 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-
-@media screen and (max-width:900px){
-  flex-direction:column-reverse ;
-  padding:20px  ;
-}
-
-
-`
+  @media screen and (max-width: 900px) {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+`;
 const Title = styled.div`
-font-size: 46px;
-line-height: 54px;
-text-transform: capitalize;
-font-family:Gilroy-Bold;
+  font-size: 46px;
+  line-height: 54px;
+  text-transform: capitalize;
+  font-family: Gilroy-Bold;
 
-color: ${(props: any) => props.theme.headerTextColor};
+  color: ${(props: any) => props.theme.headerTextColor};
 
-@media screen and (max-width:900px){
-  margin-top:15px ;
-  font-size: 20px;
-line-height: 23px;
-}
-`
+  @media screen and (max-width: 900px) {
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+`;
 const Desc = styled.div`
-margin-top: 30px;
-font-size: 27px;
-line-height: 32px;
-/* or 119% */
-font-family:'Gilroy-Medium';
-display: flex;
-align-items: center;
+  margin-top: 30px;
+  font-size: 27px;
+  line-height: 32px;
+  /* or 119% */
+  font-family: 'Gilroy-Medium';
+  display: flex;
+  align-items: center;
 
-color: ${(props: any) => props.theme.regularTextColor};
+  color: ${(props: any) => props.theme.regularTextColor};
 
-br{
+  br {
+    @media screen and (max-width: 900px) {
+      display: none;
+    }
+  }
 
-  @media screen and (max-width:900px){
-display:none ;
-}
-}
-
-@media screen and (max-width:900px){
-  font-size: 15px;
-line-height: 20px;
-}
-
-`
+  @media screen and (max-width: 900px) {
+    font-size: 15px;
+    line-height: 20px;
+  }
+`;
 
 function DescSec() {
   return (
     <>
       <Container id="about1">
         <div>
-          <Title>We are building one of the  <br /> largest Blockchain Infrastructure <br /> and Solution company</Title>
+          <Title>
+            We are building one of the <br /> largest Blockchain Infrastructure <br /> and Solution company
+          </Title>
           <Desc>
-            Our Mission is to Improve the freedom of money <br /> globally through the integration of institutions, <br /> people, groups and businesses into the <br />Blockchain economy.
+            Our Mission is to Improve the freedom of money <br /> globally through the integration of institutions,{' '}
+            <br /> people, groups and businesses into the <br />
+            Blockchain economy.
           </Desc>
         </div>
         <div>
-          <Image src={Ether}
-            alt='Explanatory image'
-            height={546}
-            width={550}
-          />
+          <Image src={Ether} alt="Explanatory image" height={546} width={550} />
         </div>
       </Container>
       <Scroll url="#about2" />
     </>
-  )
+  );
 }
 
-export default DescSec
+export default DescSec;
