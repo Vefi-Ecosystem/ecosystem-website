@@ -24,6 +24,11 @@ export const Container = styled.div`
 
     .img-card1 {
       margin: 50px 20px 0 0;
+
+      .img-fluid{
+        width:auto;
+        height:20%;
+      }
       .mind-con {
         display: flex;
         flex-direction: column;

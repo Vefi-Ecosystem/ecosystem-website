@@ -24,20 +24,20 @@ function NavBar() {
             <FaTimes />
           </div>
           <div className="link">
-            <Link href="/">
+            <Link href="#">
               <a>Home</a>
             </Link>
           </div>
           <div className="link">
-            <Link href="/">
+            {/* <Link href="/">
               <a>Partners</a>
-            </Link>
+            </Link> */}
           </div>
           <div className="link">
-            <Link href="/">Products</Link>
+            <Link href="#products">Products</Link>
           </div>
           <div className="link">
-            <Link href="/">Team</Link>
+            <Link href="#team">Team</Link>
           </div>
         </NavLinks>
       </Div>

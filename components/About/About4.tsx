@@ -55,6 +55,7 @@ const Title = styled.div`
   color: ${(props: any) => props.theme.blockTextHead};
 
   @media screen and (max-width: 900px) {
+    color: #fff;
     margin-top: 20px;
     font-size: 25px;
     line-height: 23px;
@@ -79,7 +80,8 @@ const Desc = styled.div`
   }
 
   @media screen and (max-width: 900px) {
-    margin-bottom: 60px;
+  color:#fff;
+  margin-bottom: 60px;
     font-size: 15px;
     line-height: 20px;
     text-align: center;
