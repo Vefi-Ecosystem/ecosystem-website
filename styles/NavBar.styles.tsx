@@ -1,15 +1,15 @@
 import styled from 'styled-components'
 
-type DivProps= {
-    click : any
- }
+type DivProps = {
+    click: any
+}
 
 export const Nav = styled.div` 
 position:fixed ;
 top: 0;
 right: 0;
 left:0;
-z-index:1 ;
+z-index:3 ;
 display:flex ;
 align-items:center ;
 justify-content: space-between ;
@@ -32,7 +32,7 @@ transition: all  0.5s ease-out;
     position:fixed ;
     top: 0;
     /* left: ${({ click }) => (click ? 0 : '-100%')}; */
-    left: ${({click}) => (click? 0: '-100%')};
+    left: ${({ click }) => (click ? 0 : '-100%')};
 
 display:flex ;
     flex-direction:column ;
@@ -66,7 +66,8 @@ display: flex;
 
    
 }
-a{
+a{  
+    font-family:Gilroy-SemiBold;
     color:${(props) => props.theme.linkColor}
 }
 
