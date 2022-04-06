@@ -22,6 +22,7 @@ export const Container = styled.div`
     text-transform: capitalize;
     color: ${(props) => props.theme.productTitle};
     font-family:Gilroy-Bold;
+    text-align: center;
     @media screen and (max-width: 900px) {
       font-size: 22px;
       line-height: 20px;
