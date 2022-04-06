@@ -9,16 +9,22 @@ const Container = styled.footer`
     text-align:center;
     margin:50px 0;
     gap:15px;
-        div.top_footer{
+        a{
+            text-decoration:none;
             color:${(props: any) => props.theme.topFooterTextColor};
+        }
+        div.top_footer{
             font-family: Gilroy-semibold;
             display:flex;
             flex-direction:row;
             justify-content:center;
             text-transform:uppercase;
-            gap:10px;
+            gap:2rem;
             flex-wrap:wrap;
-            border-bottom: 1px solid linear-gradient:rgba(128, 147, 255, 0.25), rgba(125, 155, 250, 1), rgba(96, 219, 212, 1), rgba(92, 228, 207, 0.25);
+            border-bottom: 1.5px solid;
+            padding-bottom:20px;
+            border-image: linear-gradient(90deg,#105DCF45, #105DCF, #105DCF45) 1 stretch;);
+            border-image-slice: 3;
         }
         div.bottom_footer{
             display:flex;
