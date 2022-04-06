@@ -13,6 +13,7 @@ font-family: Gilroy-SemiBold ;
 
 .heading{
     padding:5px;
+    z-index:3;
 }
 
 
@@ -42,6 +43,15 @@ padding-left:30px ;
 justify-content:center ;
 }
 }
+.brief{
+    width:80%;
+}
+
+@media screen and (max-width: 900px){
+    .brief{
+        margin:0 auto;
+    }
+}
 
 
 @media screen and (max-width: 900px){
@@ -51,9 +61,6 @@ margin-bottom: 30px;
 
 .welcome{
 font-size: 97px;
-line-height: 8px;
-display: flex;
-align-items: center;
 letter-spacing: -0.015em;
 font-family:Gilroy-ExtraBold;
 
@@ -61,18 +68,15 @@ color:${(props) => props.theme.headerTextColor};
 
 @media screen and (max-width: 900px){
     font-size: 35px;
-line-height: 41px;
-justify-content:center ;
+    line-height: 41px;
+    justify-content:center ;
+    text-align:center ;
 }
 
 
 
 }
 .ecosystem{
-    font-size: 97px;
-    line-height: 90px;
-display: flex;
-align-items: center;
 letter-spacing: -0.015em;
 font-family:'Gilroy-Heavy';
 background: linear-gradient(160.06deg, #105DCF 41.12%, #6F87DF 50.6%, #6FDFEE 75.89%);
@@ -82,9 +86,9 @@ background-clip: text;
 
 
 @media screen and (max-width: 900px){
-    font-size: 35px;
-line-height: 41px;
-justify-content:center ;
+        font-size: 35px;
+        line-height: 41px;
+        justify-content:center ;
 }
 }
 
