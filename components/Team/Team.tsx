@@ -10,7 +10,13 @@ function Team() {
         <div className="img-card1">
           <div>
             <div>
-              <Image layout="responsive" width={1280} height={1280} src="/images/team/Emmah_James.jpg" alt="emmanuel_james" />
+              <Image
+                layout="responsive"
+                width={1280}
+                height={1280}
+                src="/images/team/Emmah_James.jpg"
+                alt="emmanuel_james"
+              />
             </div>
             <div className="mind-con">
               <div className="mind-name">Emmanuel James</div>
@@ -19,7 +25,13 @@ function Team() {
           </div>
           <div>
             <div>
-              <Image layout="responsive" width={1280} height={1280} src="/images/team/Kingsley_Victor.jpg" alt="kingsley_victor" />
+              <Image
+                layout="responsive"
+                width={1280}
+                height={1280}
+                src="/images/team/Kingsley_Victor.jpg"
+                alt="kingsley_victor"
+              />
             </div>
             <div className="mind-con">
               <div className="mind-name">Kingsley Victor</div>
@@ -43,7 +55,8 @@ function Team() {
                 layout="responsive"
                 src="/images/team/Barinor_Kue.jpg"
                 alt="kue_barinor_paul"
-                width={1280} height={1280}
+                width={1280}
+                height={1280}
               />
             </div>
             <div className="mind-con">

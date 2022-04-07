@@ -17,9 +17,7 @@ const Home: NextPage = () => {
     <Layout>
       <div>
         <Head>
-          <title>Home Page - VeFi Ecosystem</title>
-          <meta name="description" content="Vefi ecosystem" />
-          <link rel="icon" href="/favicon.ico" />
+          <title>VeFi Ecosystem | Homepage </title>
         </Head>
         <NavBar />
         <main>

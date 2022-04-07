@@ -6,7 +6,6 @@ import { FiArrowDown } from 'react-icons/fi';
 
 import { GlobalContext } from '../../context/globalContext';
 
-
 const lighthero_bg = '/images/light_hero_bg.png';
 const darkhero_bg = '/images/dark_hero_bg.png';
 
@@ -53,7 +52,7 @@ function Hero() {
         </div>
       </HeroText>
       <ImageCon>
-        <Image src={imgDir} width={500} height={514}  alt="Ecosystem" />
+        <Image src={imgDir} width={500} height={514} alt="Ecosystem" />
       </ImageCon>
     </Container>
   );
