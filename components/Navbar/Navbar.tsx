@@ -58,7 +58,10 @@ function NavBar() {
           <div className="join">
             <div>
               <Link href="/">
-                <a href=""> Join our community</a>
+                <a href="https://t.me/vefi_official" target="_blank" rel="noreferrer">
+                  {' '}
+                  Join our community
+                </a>
               </Link>
             </div>
             <div className="slash">

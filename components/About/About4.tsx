@@ -80,8 +80,8 @@ const Desc = styled.div`
   }
 
   @media screen and (max-width: 900px) {
-  color:#fff;
-  margin-bottom: 60px;
+    color: #fff;
+    margin-bottom: 60px;
     font-size: 15px;
     line-height: 20px;
     text-align: center;
@@ -94,11 +94,9 @@ function About4() {
       <div className="border"></div>
       <div className="title-desc">
         <Title>
-          Changing the world’s future <br /> through Blockchain
+          Changing the world’s future <br /> through blockchain technology
         </Title>
-        <Desc>
-          To build and deploy innovative, cutting <br /> edge and scalable Blockchain solutions.
-        </Desc>
+        <Desc>To build and deploy innovative, cutting-edge and scalable blockchain solutions.</Desc>
       </div>
       <div>
         <Image src={Chan} alt="Explanatory image" height={546} width={550} />

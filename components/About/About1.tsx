@@ -58,12 +58,12 @@ function DescSec() {
       <Container id="about1">
         <div>
           <Title>
-            We are building one of the <br /> largest Blockchain Infrastructure <br /> and Solution company
+            We are building one of the <br /> largest blockchain ecosystems <br /> in the industry
           </Title>
           <Desc>
-            Our Mission is to Improve the freedom of money <br /> globally through the integration of institutions,{' '}
+            Our mission is to improve the freedom of money <br /> globally through the integration of institutions,{' '}
             <br /> people, groups and businesses into the <br />
-            Blockchain economy.
+            blockchain economy.
           </Desc>
         </div>
         <div>

@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useContext, useEffect } from 'react';
 import { HeroText, ImageCon, Container, Button } from '../../styles/Hero.style';
 import Image from 'next/image';
@@ -29,7 +30,7 @@ function Hero() {
       <HeroText>
         <div className="heading">
           <h1 className="welcome">
-            Welcome to the <span className="ecosystem">Ecosystem</span>
+            Welcome to the <span className="ecosystem">Vefi Ecosystem</span>
           </h1>
           {/* <h1 className='ecosystem'></h1> */}
         </div>
@@ -37,8 +38,8 @@ function Hero() {
         <div>
           <p className="brief">
             {' '}
-            Our ecosystem of blockchain-intrinsic products and services with the sole aim of permeating all areas of the
-            globe with its influence in the blockchain ecosystem.
+            Vefi is an ecosystem of blockchain-intrinsic products and services with the sole aim of permeating all areas
+            of the globe with its influence in the blockchain ecosystem.
           </p>
         </div>
         <div className="but-div">

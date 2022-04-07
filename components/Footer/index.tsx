@@ -8,10 +8,10 @@ const Container = styled.footer`
     text-align:center;
     margin:50px 0;
     gap:15px;
-        a{
+      a {
             text-decoration:none;
             color:${(props: any) => props.theme.topFooterTextColor};
-        }
+      }
         div.top_footer{
             font-family: Gilroy-semibold;
             display:flex;
@@ -60,25 +60,24 @@ const Footer = () => {
     <Container id="footer">
       <div className="top_footer">
         <div>
-          <a href="#">LinkedIn</a>
+          <a href="https://instagram.com/vefi.official" target="_blank" rel="noreferrer">
+            Instagram
+          </a>
         </div>
         <div>
-          <a href="https://instagram.com/vefi.official">Instagram</a>
+          <a href="https://facebook.com/vefi.official" target="_blank" rel="noreferrer">
+            Facebook
+          </a>
         </div>
         <div>
-          <a href="https://facebook.com/vefi.official">Facebook</a>
+          <a href="https://twitter.com/vefi_official" target="_blank" rel="noreferrer">
+            Twitter
+          </a>
         </div>
         <div>
-          <a href="https://twitter.com/vefi_official">Twitter</a>
-        </div>
-        <div>
-          <a href="#">Telegram</a>
-        </div>
-        <div>
-          <a href="#">Privacy & Policy</a>
-        </div>
-        <div>
-          <a href="#">Cookies Policy</a>
+          <a href="https://t.me/vefi_official" target="_blank" rel="noreferrer">
+            Telegram
+          </a>
         </div>
       </div>
       <div className="bottom_footer">
