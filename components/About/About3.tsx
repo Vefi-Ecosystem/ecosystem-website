@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
@@ -95,7 +96,7 @@ function About3() {
           in the Blockchain Technology <br /> Globally
         </Title>
         <Desc>
-          Our Vision is to be the global leader for <br /> institutional and mass adoption by providing <br />{' '}
+          Our vision is to be the global leader for <br /> institutional and mass adoption by providing <br />{' '}
           blockchain infrastructure and solutions.{' '}
         </Desc>
 

@@ -4,7 +4,7 @@ import React from 'react';
 import Barinor from '../../assets/images/team/Barinor_Kue.jpg';
 import Emmah from '../../assets/images/team/Emmah_James.jpg';
 import Kingsley from '../../assets/images/team/Kingsley_Victor.jpg';
-import Monah  from '../../assets/images/team/Monah_Paul.jpg';
+import Monah from '../../assets/images/team/Monah_Paul.jpg';
 
 import { Container } from '../../styles/Team.style';
 
@@ -17,7 +17,7 @@ function Team() {
         <div className="img-card1">
           <div>
             <div>
-              <Image src={Emmah} alt="Founding fathers" className='img-fluid'/>
+              <Image src={Emmah} alt="Founding fathers" className="img-fluid" />
             </div>
             <div className="mind-con">
               <div className="mind-name">Emmanuel James</div>
@@ -26,18 +26,18 @@ function Team() {
           </div>
           <div>
             <div>
-              <Image src={Kingsley} alt="Founding fathers" className='img-fluid'  />
+              <Image src={Kingsley} alt="Founding fathers" className="img-fluid" />
             </div>
             <div className="mind-con">
               <div className="mind-name">Kingsley Victor</div>
-              <div className="post">Chief Technical Officer</div>
+              <div className="post">Chief Technology Officer</div>
             </div>
           </div>
         </div>
         <div className="img-card2">
           <div>
             <div>
-              <Image src={Monah} alt="Founding fathers" className='img-fluid'  />
+              <Image src={Monah} alt="Founding fathers" className="img-fluid" />
             </div>
             <div className="mind-con">
               <div className="mind-name">Mona Paul</div>
@@ -46,7 +46,7 @@ function Team() {
           </div>
           <div>
             <div>
-              <Image src={Barinor} alt="Founding fathers" className='img-fluid' />
+              <Image src={Barinor} alt="Founding fathers" className="img-fluid" />
             </div>
             <div className="mind-con">
               <div className="mind-name">Kue Barinor Paul</div>

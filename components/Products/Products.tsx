@@ -151,10 +151,7 @@ function Tabs() {
                 </div>
                 <div className="prod-title">BlockChain</div>
               </div>
-              <div className="prod-desc">
-                3 Swap is a newly designed Decentralized exchange that makes decentralized trading fast with low
-                transaction fees and traffic...
-              </div>
+              <div className="prod-desc">Coming Soon</div>
               <div className="prod-btn">
                 <button>
                   More details <HiOutlineArrowNarrowRight className="icon" />
@@ -198,8 +195,8 @@ function Tabs() {
                 <div className="prod-title">3swap</div>
               </div>
               <div className="prod-desc">
-                3 Swap is a newly designed Decentralized exchange that makes decentralized trading fast with low
-                transaction fees and traffic...
+                3Swap is a newly created decentralized exchange that introduces a new DeFi paradigm allowing the
+                exchange of two tokens for one and also the provision of liquidity via NFTs.
               </div>
               <div className="prod-btn">
                 <button>
@@ -210,7 +207,7 @@ function Tabs() {
           </div>
         </div>
         <div className={toggle === 3 ? ' content active-content' : 'content'}>
-          <Text>Wallet Coming Soon</Text>
+          <Text>Coming Soon</Text>
         </div>
         <div className={toggle === 4 ? ' content active-content' : 'content'}>
           <Text>Coming Soon</Text>
