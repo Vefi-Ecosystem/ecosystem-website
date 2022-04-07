@@ -46,7 +46,7 @@ function NavBar() {
         <Div2>
           <Link href="/">
             <a>
-              <Image src="/images/vefilogo.png" alt="Logo" width={81} height={26} layout="fixed"/>
+              <Image src="/images/vefilogo.png" alt="Logo" width={81} height={26} layout="fixed" />
             </a>
           </Link>
         </Div2>
@@ -62,7 +62,7 @@ function NavBar() {
               </Link>
             </div>
             <div className="slash">
-              <Image src="/images/slash.png" width={150} height={9} alt="decor"/>
+              <Image src="/images/slash.png" width={150} height={9} alt="decor" />
             </div>
           </div>
           <ThemeSwitcher />

@@ -102,12 +102,7 @@ function About3() {
         <Scroll justifyContent={flexSetting} url="#change_section" />
       </div>
       <div className="img-con">
-        <Image
-          src="/images/revo.png"
-          alt="Explanatory image"
-          width={528}
-          height={667}
-        />
+        <Image src="/images/revo.png" alt="Explanatory image" width={528} height={667} />
       </div>
       <Desc1>
         Our Vision is to be the global leader for <br /> institutional and mass adoption by providing <br /> blockchain
