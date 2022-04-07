@@ -1,6 +1,4 @@
 import Image from 'next/image';
-import Logo from '../../assets/images/vefilogo.png';
-import Slash from '../../assets/images/slash.png';
 import ThemeSwitcher from '../ThemeSwitch/index';
 import { BiMenuAltLeft } from 'react-icons/bi';
 import { FaTimes } from 'react-icons/fa';
@@ -49,7 +47,7 @@ function NavBar() {
         <Div2>
           <Link href="/">
             <a>
-              <Image src={Logo} alt="Logo" />
+              <Image src="/images/vefilogo.png" layout="fill" alt="Logo" />
             </a>
           </Link>
         </Div2>
@@ -65,7 +63,7 @@ function NavBar() {
               </Link>
             </div>
             <div className="slash">
-              <Image src={Slash} alt="decor" />
+              <Image src="/images/slash.png" alt="decor" layout="fill" />
             </div>
           </div>
           <ThemeSwitcher />

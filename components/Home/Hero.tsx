@@ -3,10 +3,11 @@ import React, { useState, useContext, useEffect } from 'react';
 import { HeroText, ImageCon, Container, Button } from '../../styles/Hero.style';
 import Image from 'next/image';
 import { FiArrowDown } from 'react-icons/fi';
-import darkHero_bg from '../../assets/images/dark_hero_bg.png';
-import lighthero_bg from '../../assets/images/light_hero_bg.png';
 
 import { GlobalContext } from '../../context/globalContext';
+
+const lighthero_bg = '/images/light_hero_bg.png';
+const darkhero_bg = '/images/dark_hero_bg.png';
 
 function Hero() {
   const [imgDir, setImgDir] = useState(lighthero_bg);
@@ -15,7 +16,7 @@ function Hero() {
   const { theme } = currentTheme;
   function themeCheck() {
     if (theme === 'dark') {
-      setImgDir(darkHero_bg);
+      setImgDir(darkhero_bg);
     } else {
       setImgDir(lighthero_bg);
     }
@@ -51,7 +52,7 @@ function Hero() {
         </div>
       </HeroText>
       <ImageCon>
-        <Image src={imgDir} alt="Ecosystem" />
+        <Image layout="fill" src={imgDir} alt="Ecosystem" />
       </ImageCon>
     </Container>
   );
