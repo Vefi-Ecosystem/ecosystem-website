@@ -1,5 +1,9 @@
 import Image from 'next/image';
 import React from 'react';
+import Barinor from '../../public/images/team/Barinor_Kue.jpg';
+import Emmah from '../../public/images/team/Emmah_James.jpg';
+import Kingsley from '../../public/images/team/Kingsley_Victor.jpg';
+import Monah from '../../public/images/team/Monah_Paul.jpg';
 
 import { Container } from '../../styles/Team.style';
 
@@ -10,7 +14,7 @@ function Team() {
         <div className="img-card1">
           <div>
             <div>
-              <Image layout="fill" src="/images/team/Emmah_James.jpg" alt="emmanuel_james" className="img-fluid" />
+              <Image layout="responsive" src={Emmah} alt="emmanuel_james" />
             </div>
             <div className="mind-con">
               <div className="mind-name">Emmanuel James</div>
@@ -19,7 +23,7 @@ function Team() {
           </div>
           <div>
             <div>
-              <Image layout="fill" src="/images/team/Kingsley_Victor.jpg" alt="kingsley_victor" className="img-fluid" />
+              <Image layout="responsive" src={Kingsley} alt="kingsley_victor" />
             </div>
             <div className="mind-con">
               <div className="mind-name">Kingsley Victor</div>
@@ -30,7 +34,7 @@ function Team() {
         <div className="img-card2">
           <div>
             <div>
-              <Image layout="fill" src="/images/team/Monah_Paul.jpg" alt="mona_paul" className="img-fluid" />
+              <Image layout="responsive" src={Monah} alt="mona_paul" />
             </div>
             <div className="mind-con">
               <div className="mind-name">Mona Paul</div>
@@ -40,10 +44,10 @@ function Team() {
           <div>
             <div>
               <Image
-                layout="intrinsic"
-                src="/images/team/Barinor_Kue.jpg"
+                layout="responsive"
+                src={Barinor}
                 alt="kue_barinor_paul"
-                className="img-fluid"
+               
               />
             </div>
             <div className="mind-con">

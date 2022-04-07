@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-  background: url(img/section_img.png) no-repeat center;
+  background: url(images/section_img.png) no-repeat center;
   background-blend-mode: multiply;
   margin-top: 40px;
   padding: 90px 50px;
