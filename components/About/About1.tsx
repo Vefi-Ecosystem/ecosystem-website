@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
 import styled from 'styled-components';
-import Ether from '../../assets/images/ethe.png';
 import Scroll from '../ScrollTo/ScrollTo';
 
 const Container = styled.div`
@@ -67,7 +66,7 @@ function DescSec() {
           </Desc>
         </div>
         <div>
-          <Image src={Ether} alt="Explanatory image" height={546} width={550} />
+          <Image src="/images/ethe.png" alt="Explanatory image" height={546} width={550} />
         </div>
       </Container>
       <Scroll url="#about2" />

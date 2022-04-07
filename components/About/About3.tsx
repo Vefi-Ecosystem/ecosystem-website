@@ -2,7 +2,6 @@
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import Revo from '../../assets/images/revo.png';
 import Scroll from '../ScrollTo/ScrollTo';
 
 const Container = styled.div`
@@ -104,8 +103,9 @@ function About3() {
       </div>
       <div className="img-con">
         <Image
-          src={Revo}
+          src="/images/revo.png"
           alt="Explanatory image"
+          layout="fill"
           // height= {546}
           // width = {480}
         />

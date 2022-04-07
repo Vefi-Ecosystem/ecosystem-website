@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
 import styled from 'styled-components';
-import Chan from '../../assets/images/chang.png';
 
 const Container = styled.div`
   padding: 100px 0 0 50px;
@@ -99,7 +98,7 @@ function About4() {
         <Desc>To build and deploy innovative, cutting-edge and scalable blockchain solutions.</Desc>
       </div>
       <div>
-        <Image src={Chan} alt="Explanatory image" height={546} width={550} />
+        <Image layout="fill" src="/images/chang.png" alt="Explanatory image" height={546} width={550} />
       </div>
     </Container>
   );
