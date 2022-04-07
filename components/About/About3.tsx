@@ -3,7 +3,6 @@ import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import Scroll from '../ScrollTo/ScrollTo';
-import revo from '../../public/images/revo.png'
 
 const Container = styled.div`
   padding: 100px 50px 0 50px;
@@ -104,11 +103,10 @@ function About3() {
       </div>
       <div className="img-con">
         <Image
-          src={revo}
+          src="/images/revo.png"
           alt="Explanatory image"
-          // layout="fill"
-          // height= {546}
-          // width = {480}
+          width={528}
+          height={667}
         />
       </div>
       <Desc1>

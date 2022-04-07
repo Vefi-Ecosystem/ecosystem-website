@@ -1,9 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import Barinor from '../../public/images/team/Barinor_Kue.jpg';
-import Emmah from '../../public/images/team/Emmah_James.jpg';
-import Kingsley from '../../public/images/team/Kingsley_Victor.jpg';
-import Monah from '../../public/images/team/Monah_Paul.jpg';
 
 import { Container } from '../../styles/Team.style';
 
@@ -14,7 +10,7 @@ function Team() {
         <div className="img-card1">
           <div>
             <div>
-              <Image layout="responsive" src={Emmah} alt="emmanuel_james" />
+              <Image layout="responsive" width={1280} height={1280} src="/images/team/Emmah_James.jpg" alt="emmanuel_james" />
             </div>
             <div className="mind-con">
               <div className="mind-name">Emmanuel James</div>
@@ -23,7 +19,7 @@ function Team() {
           </div>
           <div>
             <div>
-              <Image layout="responsive" src={Kingsley} alt="kingsley_victor" />
+              <Image layout="responsive" width={1280} height={1280} src="/images/team/Kingsley_Victor.jpg" alt="kingsley_victor" />
             </div>
             <div className="mind-con">
               <div className="mind-name">Kingsley Victor</div>
@@ -34,7 +30,7 @@ function Team() {
         <div className="img-card2">
           <div>
             <div>
-              <Image layout="responsive" src={Monah} alt="mona_paul" />
+              <Image layout="responsive" width={1280} height={1280} src="/images/team/Monah_Paul.jpg" alt="mona_paul" />
             </div>
             <div className="mind-con">
               <div className="mind-name">Mona Paul</div>
@@ -45,9 +41,9 @@ function Team() {
             <div>
               <Image
                 layout="responsive"
-                src={Barinor}
+                src="/images/team/Barinor_Kue.jpg"
                 alt="kue_barinor_paul"
-               
+                width={1280} height={1280}
               />
             </div>
             <div className="mind-con">
