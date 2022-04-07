@@ -5,9 +5,6 @@ import { FaTimes } from 'react-icons/fa';
 import React, { useState } from 'react';
 import { Div, Div1, Div2, Div3, Nav, NavLinks, Sec } from '../../styles/NavBar.styles';
 import Link from 'next/link';
-import Vefi_logo from '../../public/images/vefilogo.png'
-import slash from '../../public/images/slash.png'
-
 type DivProps = {
   click: boolean;
 };
@@ -49,7 +46,7 @@ function NavBar() {
         <Div2>
           <Link href="/">
             <a>
-              <Image src={Vefi_logo} alt="Logo" />
+              <Image src="/images/vefilogo.png" alt="Logo" width={81} height={26} layout="fixed"/>
             </a>
           </Link>
         </Div2>
@@ -65,7 +62,7 @@ function NavBar() {
               </Link>
             </div>
             <div className="slash">
-              <Image src={slash} alt="decor"/>
+              <Image src="/images/slash.png" width={150} height={9} alt="decor"/>
             </div>
           </div>
           <ThemeSwitcher />
