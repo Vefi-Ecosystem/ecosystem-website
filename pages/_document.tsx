@@ -11,9 +11,9 @@ export default class CustomDocument extends Document {
       <Html>
         <Head>
           <link rel="manifest" href="/manifest.json" />
-          <link rel="apple-touch-icon" href="/icon.png" />
+          <link rel="apple-touch-icon" href="/static/favicon.ico" />
           <link rel="icon" href="/static/favicon.ico" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
           <meta name="theme-color" content="#000000" />
           <meta
             name="description"

@@ -105,7 +105,7 @@ function About3() {
         <Image src="/images/revo.png" alt="Explanatory image" width={528} height={667} />
       </div>
       <Desc1>
-        Our Vision is to be the global leader for <br /> institutional and mass adoption by providing <br /> blockchain
+        Our vision is to be the global leader for <br /> institutional and mass adoption by providing <br /> blockchain
         infrastructure and solutions.
       </Desc1>
     </Container>
