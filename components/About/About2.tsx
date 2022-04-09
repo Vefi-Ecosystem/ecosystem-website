@@ -57,6 +57,23 @@ const SmallT = styled.div`
   color: #8f8f8f;
   font-family: Gilroy-Medium;
 `;
+const MobileBigT = styled.div`
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-family: Gilroy-Bold;
+`;
+const MobileSmallT = styled.div`
+  font-size: 10px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  font-family: Gilroy-Medium;
+  color: #8f8f8f;
+  font-family: Gilroy-Medium;
+`;
 
 function About1() {
   return (
@@ -72,16 +89,14 @@ function About1() {
         </SmallT>
       </div>
       <div className="mobile">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/cS07s5zfYAI"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-        <video src=""></video>
+        <MobileBigT>
+          Addressing this problem is the core ideology <br /> behind the emergence of Vefi Ecosystem
+        </MobileBigT>
+        <MobileSmallT>
+          Beautiful as this might look for the continent, it is discomforting that it maintains <br />
+          this position primarily as the consumer continent without significant level of <br />
+          indigenous blockchain projects of its own.
+        </MobileSmallT>
       </div>
     </Container>
   );
