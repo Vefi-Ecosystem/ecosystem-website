@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       <div>
         <Head>
           <title>Vefi | Blockchain infrastructure and solution providing firm.</title>
-          <meta name="description" content="Vefi is building the future of web 3 for massive Blockchain adoption!" />
+          <meta name="description" content="Vefi is building the future of web3 for massive Blockchain adoption!" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <NavBar />
