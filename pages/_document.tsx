@@ -17,7 +17,7 @@ export default class CustomDocument extends Document {
           <meta name="theme-color" content="#000000" />
           <meta
             name="description"
-            content="The VEFI Foundation is an independent standard body that controls and oversees the advancement of the VEFI network and ecosystem. We own the VEFI brand. The foundation works to drive the adoption of blockchain technology thus yielding growth for the VEFI community."
+            content="Vefi is building a future immersed in Web3 for the massive adoption of blockchain technology."
           />
         </Head>
         <body>
