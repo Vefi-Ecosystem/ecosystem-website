@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Layout from '../components/Layout';
 import NavBar from '../components/Navbar/Navbar';
 import Hero from '../components/Home/Hero';
-import Partners from '../components/Partners/Partners';
+// import Partners from '../components/Partners/Partners';
 import About1 from '../components/About/About1';
 import About2 from '../components/About/About2';
 import About3 from '../components/About/About3';

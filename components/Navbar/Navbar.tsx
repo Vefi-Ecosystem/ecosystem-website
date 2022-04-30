@@ -36,6 +36,9 @@ function NavBar() {
           <div className="link">
             <Link href="#team">Team</Link>
           </div>
+          <div className="link">
+            <Link href="https://vefinew.netlify.app/">View One Pager</Link>
+          </div>
         </NavLinks>
       </Div>
       <Sec>

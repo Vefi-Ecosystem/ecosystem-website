@@ -93,7 +93,7 @@ export const NavLinks = styled.div`
   }
 `;
 export const Sec = styled.div`
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -118,13 +118,13 @@ export const Div1 = styled.div`
   }
 `;
 export const Div2 = styled.div`
-  margin-left: 300px;
+  margin-right: 300px;
 
   @media screen and (max-width: 1024px) {
-    margin-left: 10px;
+    margin-right: 10px;
   }
   @media screen and (max-width: 1020px) {
-    margin-left: 100px;
+    margin-right: 100px;
   }
   @media screen and (max-width: 800px) {
     margin: 0;

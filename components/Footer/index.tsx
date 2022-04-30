@@ -22,7 +22,7 @@ const Container = styled.footer`
             flex-wrap:wrap;
             border-bottom: 1.5px solid;
             padding-bottom:20px;
-            border-image: linear-gradient(90deg,#105DCF45, #105DCF, #105DCF45) 1 stretch;);
+            border-image: linear-gradient(90deg,#105DCF45, #105DCF, #105DCF45) 1 stretch);
             border-image-slice: 3;
         }
         div.bottom_footer{
