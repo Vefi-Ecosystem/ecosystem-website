@@ -1,34 +1,35 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Layout from '../components/Layout';
-import NavBar from '../components/NavBar';
-import Hero from '../components/Hero';
-import LogoSlide from '../components/LogoSlide';
-import DescSec from '../components/DescSec';
-import Addr from '../components/Addr';
-import Rev from '../components/Rev';
-import Chang from '../components/Chang';
-import Tabs from '../components/Tabs';
+import NavBar from '../components/Navbar/Navbar';
+import Hero from '../components/Home/Hero';
+// import Partners from '../components/Partners/Partners';
+import About1 from '../components/About/About1';
+import About2 from '../components/About/About2';
+import About3 from '../components/About/About3';
+import About4 from '../components/About/About4';
+import Products from '../components/Products/Products';
+import Team from '../components/Team/Team';
+import Footer from '../components/Footer';
 
 const Home: NextPage = () => {
   return (
     <Layout>
       <div>
         <Head>
-          <title>Vefi | Blockchain infrastructure and solution providing firm.</title>
-          <meta name="description" content="Vefi is building the future of web3 for massive Blockchain adoption!" />
-          <link rel="icon" href="/favicon.ico" />
+          <title>Vefi Ecosystem | Blockchain infrastructure & solutions providing firm.</title>
         </Head>
         <NavBar />
-
         <main>
           <Hero />
-          <LogoSlide />
-          <DescSec />
-          <Addr />
-          <Rev />
-          <Chang />
-          <Tabs />
+          {/* <Partners/> */}
+          <About1 />
+          <About2 />
+          <About3 />
+          <About4 />
+          <Products />
+          <Team />
+          <Footer />
         </main>
       </div>
     </Layout>
