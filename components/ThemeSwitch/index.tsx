@@ -66,21 +66,19 @@ const ThemeSwitch = (props: any) => {
 
   const { theme, themeSwitchHandler } = useContext<any | null>(GlobalContext);
 
-  const handleCheck = (e: any) => {
-    if (e.target.checked) {
-      setIconColor(lightTheme.themeSwitchBtn);
-    } else {
-      setIconColor(darkTheme.themeSwitchBtn);
-    }
-  };
+  // const handleCheck = (e: any) => {
+  //   setTimeout(() => {
+  //     if (e.target.checked) {
+  //       setIconColor(lightTheme.themeSwitchBtn);
+  //     } else {
+  //       setIconColor(darkTheme.themeSwitchBtn);
+  //     }
+  //   }, 500);
+  // };
 
   useEffect(() => {
     window.localStorage.setItem('theme', theme);
-    if (theme === 'light') {
-      setIconColor(darkTheme.themeSwitchBtn);
-    } else {
-      setIconColor(lightTheme.themeSwitchBtn);
-    }
+    setIconColor(theme === 'light' ? darkTheme.themeSwitchBtn : lightTheme.themeSwitchBtn);
   }, [theme]);
 
   return (
@@ -89,7 +87,7 @@ const ThemeSwitch = (props: any) => {
         type="checkbox"
         id="switcher"
         onChange={(e) => {
-          handleCheck(e);
+          // handleCheck(e);
           themeSwitchHandler(theme === 'dark' ? 'light' : 'dark');
         }}
       />

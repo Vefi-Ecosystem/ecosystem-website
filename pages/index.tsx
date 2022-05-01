@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-script-component-in-head */
+import '../components/utils/embr';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Layout from '../components/Layout';
@@ -12,7 +14,7 @@ import Products from '../components/Products/Products';
 import Team from '../components/Team/Team';
 import Footer from '../components/Footer';
 import Partners from '../components/Partners/Partners';
-import News from '../components/News/News';
+// import News from '../components/News/News';
 
 const Home: NextPage = () => {
   return (
@@ -31,7 +33,7 @@ const Home: NextPage = () => {
           <About4 />
           <Products />
           <Team />
-          <News />
+          {/* <News /> */}
           <Footer />
         </main>
       </div>

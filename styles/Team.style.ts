@@ -45,7 +45,7 @@ export const Container = styled.div`
           text-transform: capitalize;
           margin-bottom: 5px;
           font-family: Gilroy-Bold;
-          color: ${(props) => props.theme.themeMemberName} !important;
+          color: ${(props) => props.theme.teamMemberName} !important;
         }
         .post {
           font-size: 16px;
@@ -82,7 +82,7 @@ export const Container = styled.div`
           text-align: center;
           text-transform: capitalize;
           font-family: Gilroy-Bold;
-          color: ${(props) => props.theme.themeMemberName} !important;
+          color: ${(props) => props.theme.teamMemberName} !important;
         }
         .post {
           font-size: 16px;
