@@ -11,6 +11,8 @@ import About4 from '../components/About/About4';
 import Products from '../components/Products/Products';
 import Team from '../components/Team/Team';
 import Footer from '../components/Footer';
+import Partners from '../components/Partners/Partners';
+import News from '../components/News/News';
 
 const Home: NextPage = () => {
   return (
@@ -22,13 +24,14 @@ const Home: NextPage = () => {
         <NavBar />
         <main>
           <Hero />
-          {/* <Partners/> */}
+          <Partners />
           <About1 />
           <About2 />
           <About3 />
           <About4 />
           <Products />
           <Team />
+          <News />
           <Footer />
         </main>
       </div>
