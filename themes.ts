@@ -28,7 +28,8 @@ export const darkTheme = {
   teamHeading: '#ffffff',
   teamBody: '#8F8F8F',
   blockTextHead: '#ffffff',
-  blockTextBody: '#ffffff'
+  blockTextBody: '#ffffff',
+  linkColor: '#ffffff'
 };
 
 export const lightTheme = {

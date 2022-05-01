@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import Document, { DocumentContext, Html, Head, Main, NextScript } from 'next/document';
 
 export default class CustomDocument extends Document {

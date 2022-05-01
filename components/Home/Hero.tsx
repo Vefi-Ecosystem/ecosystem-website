@@ -53,6 +53,7 @@ function Hero() {
       </HeroText>
       <ImageCon>
         <Image src={imgDir} width={500} height={514} alt="Ecosystem" />
+        <div id="checkout"></div>
       </ImageCon>
     </Container>
   );
