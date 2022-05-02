@@ -34,11 +34,15 @@ export const Div = styled.div<DivProps>`
     display: flex;
     flex-direction: column;
     z-index: 1;
-    background: #ededed;
+    background: ${(props) => props.theme.teamBody};
     box-shadow: 5px 5px 7px 4px rgba(0, 0, 0, 0.06);
-    height: 90vh;
+    height: 100%;
     width: 174px;
     padding: 20px;
+    a {
+      color: ${(props: any) => props.theme.linkColor};
+      text-decoration: none;
+    }
   }
 `;
 export const NavLinks = styled.div`
@@ -102,6 +106,8 @@ export const Sec = styled.div`
     padding: 20px;
     justify-content: space-between;
     flex: none;
+    display: flex;
+    width: 90%;
   }
 `;
 export const Div1 = styled.div`
