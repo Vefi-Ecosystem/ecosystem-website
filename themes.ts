@@ -40,5 +40,6 @@ export const lightTheme = {
   themeSwitchBtn: '#EEEEEE',
   themeSwitchShadow: 'inset 0px 4px 7px 4px #DDDDDD',
   themeSwitchBackground: '#EEEEEE',
-  linkColor: '#1D1D1D'
+  linkColor: '#1D1D1D',
+  teamBody: '#ededed'
 };

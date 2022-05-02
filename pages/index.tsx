@@ -21,7 +21,7 @@ const Home: NextPage = () => {
     <Layout>
       <div>
         <Head>
-          <title>Vefi Ecosystem | Blockchain infrastructure & solutions providing firm.</title>
+          <title>Vefi Ecosystem | Blockchain infrastructure &amp; solutions providing firm.</title>
         </Head>
         <NavBar />
         <main>

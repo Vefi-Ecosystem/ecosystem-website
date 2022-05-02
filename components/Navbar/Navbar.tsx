@@ -26,11 +26,6 @@ function NavBar() {
             </Link>
           </div>
           <div className="link">
-            {/* <Link href="/">
-              <a>Partners</a>
-            </Link> */}
-          </div>
-          <div className="link">
             <Link href="#products">Products</Link>
           </div>
           <div className="link">

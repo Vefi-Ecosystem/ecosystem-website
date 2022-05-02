@@ -7,6 +7,10 @@ export const Container = styled.div`
   max-width: ${(props: any) => (props.maxWidth ? props.maxWidth : '1200px')};
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and (min-width: 320px) and (max-width: 960px) {
+    max-width: 95%;
+  }
 `;
 
 const NewsWrapper = styled.div`
@@ -15,9 +19,22 @@ const NewsWrapper = styled.div`
 
   display: flex;
   flex-wrap: wrap;
-
+  @media screen and (min-width: 320px) and (max-width: 960px) {
+    max-width: 100%;
+  }
+  @media screen and (min-width: 320px) and (max-width: 960px) {
+    max-width: 90%;
+  }
   .title {
     margin-bottom: 30px;
+    @media screen and (min-width: 320px) and (max-width: 960px) {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      h1 {
+        font-size: 1.2rem;
+      }
+    }
   }
   .new__wrapper {
     display: flex;
@@ -30,15 +47,23 @@ const NewsWrapper = styled.div`
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     overflow: hidden;
+
+    @media screen and (min-width: 320px) and (max-width: 960px) {
+      max-width: 95%;
+      background: red;
+      margin: 0 auto;
+    }
     .card__img {
       width: 380px;
       height: 300px;
-      background: yellow;
 
       img {
         width: 380px !important;
         height: 300px !important;
         object-fit: cover;
+
+        @media screen and (min-width: 320px) and (max-width: 960px) {
+        }
       }
     }
     .card__body {
@@ -48,7 +73,11 @@ const NewsWrapper = styled.div`
         font-size: 0.8rem;
         color: rgba(0, 0, 0, 0.8);
         line-height: 1.8rem;
-
+        @media screen and (min-width: 320px) and (max-width: 960px) {
+          h1 {
+            font-size: 1rem;
+          }
+        }
         &::first-letter {
           text-transform: capitalize;
         }
