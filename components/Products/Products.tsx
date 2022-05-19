@@ -326,9 +326,11 @@ function Tabs() {
                 all who vest their interest. Broadcasts would be aired both on the web and on TV.
               </div>
               <div className="prod-btn">
-                <button>
-                  More details <HiOutlineArrowNarrowRight className="icon" />
-                </button>
+                <a href="https://mycryptotimes.tv" target="_blank" rel="noreferrer">
+                  <button>
+                    More details <HiOutlineArrowNarrowRight className="icon" />
+                  </button>
+                </a>
               </div>
             </div>
           </div>
